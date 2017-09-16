@@ -12,6 +12,7 @@
   <body>
     <%= render '/layouts/header' %>
     <%= yield %>
+    <%= javascript_pack_tag 'hello_react' %>
     <%= render '/layouts/footer' %>
   </body>
   <%= yield :scripts %>

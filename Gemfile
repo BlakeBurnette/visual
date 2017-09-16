@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.4.0'
+ruby '2.4.2'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -19,6 +19,7 @@ gem 'uglifier', '>= 1.3.0'
 # Use Materialize as a responsive CSS front-end framework
 gem 'materialize-sass'
 gem 'actionpack', '~> 5.0', '>= 5.0.0.1'
+gem 'webpacker'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
