@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.4.2'
 
 git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
   "https://github.com/#{repo_name}.git"
 end
 
@@ -16,9 +16,11 @@ gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
+# Actionpack for React
+gem 'actionpack', '~> 5.0', '>= 5.0.0.1'
 # Use Materialize as a responsive CSS front-end framework
 gem 'materialize-sass'
-gem 'actionpack', '~> 5.0', '>= 5.0.0.1'
+# Webpacker for React compile
 gem 'webpacker'
 
 # Use jquery as the JavaScript library
@@ -42,8 +44,9 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.0.5'
+  gem 'web-console', '>= 3.3.0'
+
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
