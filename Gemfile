@@ -18,6 +18,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # Use Materialize as a responsive CSS front-end framework
 gem 'materialize-sass'
+gem 'actionpack', '~> 5.0', '>= 5.0.0.1'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
