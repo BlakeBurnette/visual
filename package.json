@@ -9,5 +9,5 @@
   "devDependencies": {
     "webpack-dev-server": "^2.8.2"
   },
-  "version": "0.28.4"
+  "version": "1.0.2"
 }
