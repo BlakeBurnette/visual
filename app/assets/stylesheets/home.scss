@@ -1,23 +1,59 @@
+@import 'variables';
+
+#home-nav {
+  position: absolute;
+  top: 36vh;
+}
+
 .twenty-percent {
-  width: 20%;
+  width: 20vw;
+  float: left;
+  height: 16vw;
 }
 
-#1 {
-  background-color: red;
+#one {
+  background-color: #2e6761;
 }
 
-#2 {
-  background-color: orange;
+#two {
+  background-color: #3e7e76;
 }
 
-#3 {
-  background-color: purple;
+#three {
+  background-color: #4e968d;
 }
 
-#4 {
-  background-color: blue;
+#four {
+  background-color: #5Caea2;
 }
 
-#5 {
-  background-color: yellow;
+#five {
+  background-color: #6Bc7ba;
+}
+
+#hello-and-welcome {
+  overflow:hidden;
+  height: 100vh;
+  width:100vw;
+
+  p{
+  text-transform: uppercase;
+  color: #191b2c;
+  font-family: $ubuntu;
+  font-size: 5em;
+  font-weight: 700;
+  line-height: 1em;
+  transform: rotate(-7deg);
+  width: 120%;
+  position: relative;
+  top: -38vh;
+  }
+}
+
+#foo {
+  position: absolute;
+  max-height:75px;
+  max-width:75px;
+  top: 3vh;
+  right: 6vh;
 }
