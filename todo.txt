@@ -5,15 +5,14 @@ React component that rotates ways to say hello with CSS transitions fly in
 Maybe a big B and short snippet of who I am
 Responsive
 Plus-sign menu top right (slides out on full screen hover to left)
-Hamburger on mobile
-
-Font-awesome
 
 ********** Work **********
 
 Two Fake sites
 1 in Materialize style
 1 mimics Medaxion site but is responsive
+Maybe 1 goofball site
+1 Graph heavy
 
 ********** About **********
 
@@ -68,15 +67,22 @@ Front-end Design
 ********** Playing around **********
 
 Fake server
+Maybe a little puzzle
+A little CLI thing
 
 ********** Contact form **********
 
 Traditional contact form that requires email and name and generates email on submission
+(footer?)
 
 ********** Extras **********
 
+(footer?)
 Explain this project
 
 This project was built using Rails, ReactJS, Materialize Sass, Heroku Deployment
 
 Process
+
+
+Some jumpy moving things that look like graphs
