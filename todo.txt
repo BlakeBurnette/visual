@@ -1,0 +1,82 @@
+SPA or React
+
+********** Page 1 **********
+React component that rotates ways to say hello with CSS transitions fly in
+Maybe a big B and short snippet of who I am
+Responsive
+Plus-sign menu top right (slides out on full screen hover to left)
+Hamburger on mobile
+
+Font-awesome
+
+********** Work **********
+
+Two Fake sites
+1 in Materialize style
+1 mimics Medaxion site but is responsive
+
+********** About **********
+
+Store this in JSON format and call it via API?
+
+Front-end Dev
+
+have used:
+server:
+ruby
+rails
+TDD with Semaphore, TravisCI
+
+front-end:
+js
+  react
+  angularjs
+  jquery
+  ES5
+  ES2017
+css
+  materialize
+  bootstrap
+  sass
+  less
+  transitions
+
+html
+  html5
+
+exploring
+  Python
+  Erlang
+  Phoenix
+
+CMS
+  Wordpress
+  Drupal
+  Four51
+
+Git
+Command Line
+
+Front-end Design
+
+  Design
+    Adobe Illustrator
+    Adobe InDesign
+    Adobe Photoshop
+    Adobe AfterEffects
+
+********** Playing around **********
+
+Fake server
+
+********** Contact form **********
+
+Traditional contact form that requires email and name and generates email on submission
+
+********** Extras **********
+
+Explain this project
+
+This project was built using Rails, ReactJS, Materialize Sass, Heroku Deployment
+
+Process
