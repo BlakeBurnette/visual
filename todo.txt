@@ -1,0 +1,67 @@
+Page 1
+Big B
+Hamburger
+
+Traditional contact form that requires email and name and generates email on submission
+
+This page was created by:
+
+Store this in JSON format and call it via API?
+
+Front-end Dev
+
+have used:
+server:
+ruby
+rails
+TDD with Semaphore, TravisCI
+
+front-end:
+js
+  react
+  angularjs
+  jquery
+  ES5
+  ES2017
+css
+  materialize
+  bootstrap
+  sass
+  less
+  transitions
+
+html
+  html5
+
+exploring
+  Python
+  Erlang
+  Phoenix
+
+CMS
+  Wordpress
+  Drupal
+  Four51
+
+Git
+Command Line
+
+Front-end Design
+
+  Design
+    Adobe Illustrator
+    Adobe InDesign
+    Adobe Photoshop
+    Adobe AfterEffects
+
+Playing around
+
+Fake server
+
+Explain this project
+
+This project was built using Rails, ReactJS, Materialize Sass, Heroku Deployment
+
+Process
+
+Contact form
