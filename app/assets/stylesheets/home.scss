@@ -1,0 +1,16 @@
+#home {
+  height: 95vh;
+  width: 95vw;
+  margin: 2.5vh auto;
+  background-color: #231f20;
+  #gui-code-selection {
+    position: relative;
+    top: 40vh;
+  }
+  #gui,
+  #code {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+  }
+}
