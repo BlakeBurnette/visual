@@ -1,10 +1,21 @@
-Page 1
-Big B
-Hamburger
+SPA or React
 
-Traditional contact form that requires email and name and generates email on submission
+********** Page 1 **********
+React component that rotates ways to say hello with CSS transitions fly in
+Maybe a big B and short snippet of who I am
+Responsive
+Plus-sign menu top right (slides out on full screen hover to left)
+Hamburger on mobile
 
-This page was created by:
+Font-awesome
+
+********** Work **********
+
+Two Fake sites
+1 in Materialize style
+1 mimics Medaxion site but is responsive
+
+********** About **********
 
 Store this in JSON format and call it via API?
 
@@ -54,14 +65,18 @@ Front-end Design
     Adobe Photoshop
     Adobe AfterEffects
 
-Playing around
+********** Playing around **********
 
 Fake server
+
+********** Contact form **********
+
+Traditional contact form that requires email and name and generates email on submission
+
+********** Extras **********
 
 Explain this project
 
 This project was built using Rails, ReactJS, Materialize Sass, Heroku Deployment
 
 Process
-
-Contact form
