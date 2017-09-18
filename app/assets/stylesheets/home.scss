@@ -23,6 +23,12 @@
       i {
         margin-top: 24%;
         color: #b5e0d9;
+        &.fa-5responsive {
+          @media (max-width: $extra-small) {font-size: 2em;}
+          @media (min-width: $small) {font-size: 3em;}
+          @media (min-width: $medium) {font-size: 4em;}
+          @media (min-width: $large) {font-size: 5em;}
+        }
       }
     }
     .underline {
@@ -31,13 +37,36 @@
     }
     &:hover {
       .link{
-        opacity: 0.7;
-        -webkit-transition: opacity 0.5s;
-        transition: opacity 0.5s;
         i {
           color: #39766f;
           -webkit-transition: color 0.5s; /* Safari */
           transition: color 0.5s;
+          font-family: $comfortaa;
+          margin-top: 20%;
+          &.fa-user:before {
+            font-size: 0.6em;
+            content: "about" !important;
+          }
+          &.fa-eye:before {
+            font-size: 0.6em;
+            content: "work" !important;
+          }
+          &.fa-code:before {
+            font-size: 0.6em;
+            content: "code" !important;
+          }
+          &.fa-bicycle:before {
+            font-size: 0.6em;
+            color: #41857f;
+            content: "fun" !important;
+
+            -webkit-transition: color 0.5s; /* Safari */
+            transition: color 0.5s;
+          }
+          &.fa-paper-plane-o:before {
+            font-size: 0.6em;
+            content: "contact" !important;
+          }
         }
       }
       .underline {
@@ -54,23 +83,23 @@
   }
 
   #one {
-    background-color: #2e6761;
+    background-color: rgba(46,103,97,0.6);
   }
 
   #two {
-    background-color: #3e7e76;
+    background-color: rgba(62,126,118,0.6);
   }
 
   #three {
-    background-color: #4e968d;
+    background-color: rgba(78,150,141,0.6);
   }
 
   #four {
-    background-color: #5Caea2;
+    background-color: rgba(92,174,162,0.6);
   }
 
   #five {
-    background-color: #6Bc7ba;
+    background-color: rgba(107,199,186,0.6);
   }
 
   #hello-and-welcome {
