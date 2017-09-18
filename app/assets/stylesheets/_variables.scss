@@ -1,8 +1,9 @@
 // fonts
 
-$arvo: 'Arvo', serif;
-$vollkorn: 'Vollkorn', serif;
-$ubuntu: 'Ubuntu', sans-serif;;
+/*$arvo: 'Arvo', serif;
+$vollkorn: 'Vollkorn', serif;*/
+$ubuntu: 'Ubuntu', sans-serif;
+$comfortaa: 'Comfortaa', sans-serif;
 $open-sans: 'Open Sans', sans-serif;
 
 // Colors
@@ -11,3 +12,11 @@ $primary-color: #131626;
 $secondary-color: orange;
 $tertiary-color: blue;
 $orange: rgba(239,111,49,1.0);
+
+// Media Queries
+
+$extra-small: 480px;
+$small: 481px;
+$medium: 760px;
+$large: 1080px;
+$extra-large: 1280px;
