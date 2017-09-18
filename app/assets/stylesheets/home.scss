@@ -3,6 +3,11 @@
 @import 'font-awesome';
 
 @media (orientation:landscape) {
+  nav,
+  footer {
+    display: none;
+  }
+
   #home-nav {
     position: absolute;
     top: 36vh;
