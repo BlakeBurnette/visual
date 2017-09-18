@@ -1,1 +1,10 @@
 @import 'variables';
+
+#foo {
+  position: absolute;
+  max-height:75px;
+  max-width:75px;
+  top: 3vh;
+  right: 6vh;
+  z-index: 1;
+}

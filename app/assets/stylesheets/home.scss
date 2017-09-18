@@ -1,15 +1,56 @@
 @import 'variables';
+@import 'animations';
+@import 'font-awesome';
 
 @media (orientation:landscape) {
   #home-nav {
     position: absolute;
     top: 36vh;
+    margin-bottom: 0;
+
+    -webkit-animation: slideInLeft 2.3s; /* Safari 4+ */
+    -moz-animation:    slideInLeft 2.3s; /* Fx 5+ */
+    -o-animation:      slideInLeft 2.3s; /* Opera 12+ */
+    animation:         slideInLeft 2.3s; /* IE 10+, Fx 29+ */
   }
 
   .twenty-percent {
     width: 20vw;
     float: left;
-    height: 16vw;
+    text-align: center;
+    .link {
+      height: 16vw;
+      i {
+        margin-top: 24%;
+        color: #b5e0d9;
+      }
+    }
+    .underline {
+      width: 0;
+      margin-left: 50%;
+    }
+    &:hover {
+      .link{
+        opacity: 0.7;
+        -webkit-transition: opacity 0.5s;
+        transition: opacity 0.5s;
+        i {
+          color: #39766f;
+          -webkit-transition: color 0.5s; /* Safari */
+          transition: color 0.5s;
+        }
+      }
+      .underline {
+        background-color: $orange;
+        width:20vw;
+        height: 2vh;
+        margin-top: 2vh;
+        margin-left: 0%;
+
+        -webkit-transition: width 0.5s, margin-left 0.5s /* Safari */;
+        transition: width 0.5s, margin-left 0.5s;
+      }
+    }
   }
 
   #one {
@@ -48,15 +89,12 @@
     width: 120%;
     position: relative;
     top: -38vh;
-    }
-  }
 
-  #foo {
-    position: absolute;
-    max-height:75px;
-    max-width:75px;
-    top: 3vh;
-    right: 6vh;
+    -webkit-animation: fadeIn 7.0s; /* Safari 4+ */
+    -moz-animation:    fadeIn 7.0s; /* Fx 5+ */
+    -o-animation:      fadeIn 7.0s; /* Opera 12+ */
+    animation:         fadeIn 7.0s; /* IE 10+, Fx 29+ */
+    }
   }
 }
 
