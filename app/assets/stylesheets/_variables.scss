@@ -8,10 +8,10 @@ $open-sans: 'Open Sans', sans-serif;
 
 // Colors
 
-$primary-color: #131626;
-$secondary-color: orange;
-$tertiary-color: blue;
+$primary-color: #131626; // dark-purple
 $orange: rgba(239,111,49,1.0);
+$information-color: $orange;
+$interactive-color: #6bc7ba;
 
 // Media Queries
 

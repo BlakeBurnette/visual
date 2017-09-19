@@ -3,6 +3,12 @@
 @import 'font-awesome';
 
 @media (orientation:landscape) {
+  body {
+    font-family: $open-sans;
+    background-color: $primary-color;
+    color: #fff;
+  }
+
   nav,
   footer {
     display: none;
@@ -131,5 +137,4 @@
     }
   }
 }
-
-@media (orientation: portrait) {*{display: none;}}
+@media (orientation:portrait) {*{display:none;}}
