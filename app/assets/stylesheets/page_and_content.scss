@@ -1,7 +1,14 @@
 @import 'variables';
 
-body {
-  font-family: $open-sans;
+html {
   background-color: $primary-color;
-  color: #fff;
+}
+
+footer {
+  background-color: $primary-color;
+}
+
+body {
+  background-color: white;
+  color: $primary-color;
 }
