@@ -48,7 +48,26 @@
 
 <div id="about">
 
- About me
+  <!-- left side is avatar and icons for languages -->
+  <!-- on hover expands to show more details? -->
+
+ {
+  "whoami": "Web Developer: I am currently a javascript developer for a local start-up with a focus on the front-end of a Rails web application. For 50% of my time I write Javascript. This include React using ES2017, Jquery with some limited Prototype and coffeescript for the portions of the app not using react, and when needed vanilla javascript paired with E4X on Java Rhino for an ETL called Myrth. When not working I am exploring other languages like Elixir, having fun with design, doodle letters (typography).",
+  "Technical Skills": {
+    "Front-end Dev": {
+      "javascript": ["ES2017", "React", "Angularjs", "Jquery"],
+      "css": ["Sass/Less", "Transitions", "Bootstrap", "Materialize"]
+    },
+    "Server": ["Ruby", "Rails"],
+    "Testing": ["RSpec", "Minitest", "Capybara", {
+      "CI": ["TravisCI", "Semaphore"]
+    }],
+    "Command Line": ["Git", "Unix"],
+    "Content Management Systems": ["Wordpress", "Drupal", "Four51"],
+    "Exploring": ["Erlang", "Phoenix"],
+    "Design": ["Illustrator", "InDesign", "AfterEffecs", "Photoshop"]
+  }
+}
 
 </div>
 
@@ -72,7 +91,7 @@
             <label for="email">Email</label>
           </div>
           <div class="input-field col s12">
-            <input placeholder="Placeholder" id="message" type="text" class="validate">
+            <textarea id="message" class="materialize-textarea"></textarea>
             <label for="message">Message</label>
           </div>
           <div class="row col s12">
