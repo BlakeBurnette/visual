@@ -1,16 +1,24 @@
-SPA or React
+SPA with links to other projects on same url
+
+Home will be top above the fold
+
+Page order will go in roughly same order as now
+
+On scroll past the fold, navigation bar stays fixed as plus sign that pops out left -- materialize affect
+
+Two column mostly
+
+Skills | skills list
+
+every is two columns that collapses on mobile
+main page is 4 squares with bottom contact
 
 ********** Page 1 **********
-React component that rotates ways to say hello with CSS transitions fly in
 Maybe a big B and short snippet of who I am
 Responsive
 Plus-sign menu top right (slides out on full screen hover to left)
 
-
-
-
-
-
+**** tons of animation ****
 
 
 
