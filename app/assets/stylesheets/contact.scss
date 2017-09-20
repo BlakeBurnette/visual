@@ -1,15 +1,12 @@
 @import 'variables';
 
-body {
-  background-color: $primary-color;
-}
-
 #contact-me {
-  background-color: transparent;
+  background-color: $primary-color;
   color: #ddd;
+  .row { margin-bottom: 0; }
 
-  #contact-info{
-    min-height: 70vh;
+  #contact-info {
+    min-height: 80vh;
     margin: 2vh 0 5vh;
     border-bottom: 2px solid #ddd;
   }

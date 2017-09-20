@@ -5,12 +5,11 @@
 @media (orientation:landscape) {
   body {
     font-family: $open-sans;
-    background-color: $primary-color;
-    color: #fff;
+    background-color: white;
+    color: $primary-color;
   }
 
-  nav,
-  footer {
+  nav {
     display: none;
   }
 
@@ -40,6 +39,29 @@
           @media (min-width: $medium) {font-size: 4em;}
           @media (min-width: $large) {font-size: 5em;}
         }
+        font-family: $comfortaa;
+        margin-top: 20%;
+        &.fa-user:before {
+          font-size: 0.6em;
+          content: "about" !important;
+        }
+        &.fa-eye:before {
+          font-size: 0.6em;
+          content: "work" !important;
+        }
+        &.fa-code:before {
+          font-size: 0.6em;
+          content: "code" !important;
+        }
+         &.fa-bicycle:before {
+          font-size: 0.6em;
+          content: "fun" !important;
+        }
+        &.fa-paper-plane-o:before {
+          font-size: 0.6em;
+          content: "contact" !important;
+        }
+
       }
     }
     .underline {
@@ -49,34 +71,34 @@
     &:hover {
       .link{
         i {
+          margin-top: 24%;
           color: #39766f;
           -webkit-transition: color 0.5s; /* Safari */
           transition: color 0.5s;
-          font-family: $comfortaa;
-          margin-top: 20%;
+          font-family: FontAwesome;
           &.fa-user:before {
-            font-size: 0.6em;
-            content: "about" !important;
+            font-size: 1em;
+            content: "\f007" !important;
           }
           &.fa-eye:before {
-            font-size: 0.6em;
-            content: "work" !important;
+            font-size: 1em;
+            content: "\f06e" !important;
           }
           &.fa-code:before {
-            font-size: 0.6em;
-            content: "code" !important;
+            font-size: 1em;
+            content: "\f121" !important;
           }
           &.fa-bicycle:before {
-            font-size: 0.6em;
             color: #41857f;
-            content: "fun" !important;
+            font-size: 1em;
+            content: "\f206" !important;
 
             -webkit-transition: color 0.5s; /* Safari */
             transition: color 0.5s;
           }
           &.fa-paper-plane-o:before {
-            font-size: 0.6em;
-            content: "contact" !important;
+            font-size: 1em;
+            content: "\f1d9" !important;
           }
         }
       }
@@ -94,23 +116,23 @@
   }
 
   #one {
-    background-color: rgba(46,103,97,0.6);
+    background-color: rgba(46,103,97,0.95);
   }
 
   #two {
-    background-color: rgba(62,126,118,0.6);
+    background-color: rgba(62,126,118,0.95);
   }
 
   #three {
-    background-color: rgba(78,150,141,0.6);
+    background-color: rgba(78,150,141,0.95);
   }
 
   #four {
-    background-color: rgba(92,174,162,0.6);
+    background-color: rgba(92,174,162,0.95);
   }
 
   #five {
-    background-color: rgba(107,199,186,0.6);
+    background-color: rgba(107,199,186,0.95);
   }
 
   #hello-and-welcome {
@@ -120,20 +142,23 @@
 
     p{
     text-transform: uppercase;
-    color: #191b2c;
+    color: rgba(217,215,236,0.4);
     font-family: $ubuntu;
     font-size: 5em;
     font-weight: 700;
     line-height: 1em;
     transform: rotate(-7deg);
-    width: 120%;
+    width: 250%;
     position: relative;
-    top: -38vh;
+    top: -68vh;
 
     -webkit-animation: fadeIn 7.0s; /* Safari 4+ */
     -moz-animation:    fadeIn 7.0s; /* Fx 5+ */
     -o-animation:      fadeIn 7.0s; /* Opera 12+ */
     animation:         fadeIn 7.0s; /* IE 10+, Fx 29+ */
+      span.darken {
+        color: rgba(217,215,236,0.6);
+      }
     }
   }
 }
