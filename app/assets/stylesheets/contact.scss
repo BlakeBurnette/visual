@@ -1,17 +1,21 @@
 @import 'variables';
 
 #contact-me {
-  background-color: $primary-color;
-  color: #ddd;
+  background-color: #d9d7ec;
+  color: $primary-color;
   .row { margin-bottom: 0; }
 
   #contact-info {
-    min-height: 80vh;
     margin: 2vh 0 5vh;
-    border-bottom: 2px solid #ddd;
+    height: auto;
+    .col.context {
+      color: $primary-color;
+    }
   }
 
   #contact-form {
+    background-color: $primary-color;
+    color: #d9d7ec;
     form {
       width: 75%;
       margin: 20px 0 0 12.5%;
