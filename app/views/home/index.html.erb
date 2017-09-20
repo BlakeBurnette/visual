@@ -24,7 +24,7 @@
     </div>
     <div class="underline"></div>
   </a>
-  <a class="twenty-percent" href="code_examples">
+  <a class="twenty-percent" href="https://github.com/blakeburnette">
     <div id="three" data-id="code" class="link">
       <i class="fa fa-code fa-5responsive" aria-hidden="true"></i>
     </div>
@@ -36,7 +36,7 @@
     </div>
     <div class="underline"></div>
   </a>
-  <a class="twenty-percent" href="contact">
+  <a class="twenty-percent" href="#contact-me">
     <div id="five" data-id="contact" class="link">
       <i class="fa fa-paper-plane-o fa-5responsive" aria-hidden="true"></i>
     </div>
@@ -48,56 +48,26 @@
 
 <div id="about">
 
-  <% title "About" %>
+  <!-- left side is avatar and icons for languages -->
+  <!-- on hover expands to show more details? -->
 
-<p>Store this in JSON format and call it via API?</p>
-<p></p>
-<p>Front-end Dev</p>
-<p></p>
-<p>have used:</p>
-<p>server:</p>
-<p>ruby</p>
-<p>rails</p>
-<p>TDD with Semaphore, TravisCI</p>
-<p></p>
-<p>front-end:</p>
-<p>js</p>
-<p>  react</p>
-<p>  angularjs</p>
-<p>  jquery</p>
-<p>  ES5</p>
-<p>  ES2017</p>
-<p>css</p>
-<p>  materialize</p>
-<p>  bootstrap</p>
-<p>  sass</p>
-<p>  less</p>
-<p>  transitions</p>
-<p></p>
-<p>html</p>
-<p>  html5</p>
-<p></p>
-<p>exploring</p>
-<p>  Python</p>
-<p>  Erlang</p>
-<p>  Phoenix</p>
-<p></p>
-<p>CMS</p>
-<p>  Wordpress</p>
-<p>  Drupal</p>
-<p>  Four51</p>
-<p></p>
-<p>Git</p>
-<p>Command Line</p>
-<p></p>
-<p>Front-end Design</p>
-<p></p>
-<p>  Design</p>
-<p>    Adobe Illustrator</p>
-<p>    Adobe InDesign</p>
-<p>    Adobe Photoshop</p>
-<p>    Adobe AfterEffects</p>
-
+ {
+  "whoami": "Web Developer: I am currently a javascript developer for a local start-up with a focus on the front-end of a Rails web application. For 50% of my time I write Javascript. This include React using ES2017, Jquery with some limited Prototype and coffeescript for the portions of the app not using react, and when needed vanilla javascript paired with E4X on Java Rhino for an ETL called Myrth. When not working I am exploring other languages like Elixir, having fun with design, doodle letters (typography).",
+  "Technical Skills": {
+    "Front-end Dev": {
+      "javascript": ["ES2017", "React", "Angularjs", "Jquery"],
+      "css": ["Sass/Less", "Transitions", "Bootstrap", "Materialize"]
+    },
+    "Server": ["Ruby", "Rails"],
+    "Testing": ["RSpec", "Minitest", "Capybara", {
+      "CI": ["TravisCI", "Semaphore"]
+    }],
+    "Command Line": ["Git", "Unix"],
+    "Content Management Systems": ["Wordpress", "Drupal", "Four51"],
+    "Exploring": ["Erlang", "Phoenix"],
+    "Design": ["Illustrator", "InDesign", "AfterEffecs", "Photoshop"]
+  }
+}
 
 </div>
 
@@ -106,7 +76,7 @@
 <div id="contact-me">
   <div class="row">
     <div id="contact-info">
-      <div class="col s6">
+      <div class="col s6 context">
         <h4 class="col s12 center">Shoot me a message</h4>
         <aside>satellite animation</aside>
       </div>
@@ -121,7 +91,7 @@
             <label for="email">Email</label>
           </div>
           <div class="input-field col s12">
-            <input placeholder="Placeholder" id="message" type="text" class="validate">
+            <textarea id="message" class="materialize-textarea"></textarea>
             <label for="message">Message</label>
           </div>
           <div class="row col s12">
@@ -135,4 +105,3 @@
     </div>
   </div>
 </div>
-
