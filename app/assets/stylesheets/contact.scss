@@ -1,12 +1,14 @@
 @import 'variables';
 
 #contact-me {
-  background-color: #d9d7ec;
+  background: #c29fc6 image-url(contact_background) no-repeat left;
+  background-size: cover;
   color: $primary-color;
+  height: 100vh;
   .row { margin-bottom: 0; }
 
   #contact-info {
-    margin: 2vh 0 5vh;
+    padding: 2vh 0 5vh;
     height: auto;
     .col.context {
       color: $primary-color;
@@ -14,12 +16,19 @@
   }
 
   #contact-form {
-    background-color: $primary-color;
     color: #d9d7ec;
     form {
       width: 75%;
-      margin: 20px 0 0 12.5%;
-      padding: 20px;
+      padding: 15vh 0 0 10vw;
+      input {
+        border-bottom: 1px solid white;
+      }
+      label {
+        color: white;
+      }
+      textarea#message {
+        border-bottom: 1px solid white;
+      }
     }
   }
 }
