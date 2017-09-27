@@ -1,12 +1,20 @@
-<nav>
-  <div class="nav-wrapper">
-    <a href="/" class="brand-logo">Blake Burnette</a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a href="about">About</a></li>
-      <li><a href="work">Work</a></li>
-      <li><a href="code_examples">Code Examples</a></li>
-      <li><a href="fun_projects">Fun Projects</a></li>
-      <li><a href="contact">Contact</a></li>
-    </ul>
-  </div>
+<nav id="toggle-nav">
+  <a><%= image_tag('plus.svg', id: 'nav-plus-toggle') %></a>
+  <ul>
+    <li>
+      <a href="/#about-me">about</a>
+    </li>
+    <li>
+      <a href="work">work</a>
+    </li>
+    <li>
+      <a href="https://github.com/blakeburnette">code</a>
+    </li>
+    <li>
+      <a href="fun">fun</a>
+    </li>
+    <li>
+      <a href="/#contact-me">contact</a>
+    </li>
+  </ul>
 </nav>

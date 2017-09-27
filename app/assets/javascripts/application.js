@@ -16,3 +16,4 @@
 //= require_tree .
 //= require materialize-sprockets
 //= require modal
+//= require header_nav

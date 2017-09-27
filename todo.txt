@@ -14,13 +14,28 @@ every is two columns that collapses on mobile
 main page is 4 squares with bottom contact
 
 ********** Page 1 **********
-Maybe a big B and short snippet of who I am
 Responsive
 Plus-sign menu top right (slides out on full screen hover to left)
+
+About me
+Get logos and stuff in there
+write content
+Clean that up
+
+Contact
+Either have image on right with message dropdown
+Or make email more attention grabbing
+Contact message needs to submit and update to DB
+then send email
+
+Footer
+Update it so that is centered correctly in three divs with map of site
+Needs different design
 
 **** tons of animation ****
 
 
+Navigation plus sign needs to be on every page. Scrap secondary page appearance as they are
 
 
 

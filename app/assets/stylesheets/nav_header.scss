@@ -1,15 +1,83 @@
 @import 'variables';
 
-nav {
-  background-color: $informative-color;
-}
-
-#nav-plus-toggle {
+nav#toggle-nav {
+  background-color: transparent;
   position: absolute;
-  max-height: 50px;
-  max-width: 50px;
-  top: 4vh;
-  right: 4vh;
+  top: 15px;
+  right: 21px;
   z-index: 1;
+  box-shadow: none;
+  width: auto;
+  overflow: hidden;
+
+  #nav-plus-toggle {
+    height: 50px;
+    width: 50px;
+    -webkit-transition: transform 0.8s; /* Safari */
+    transition: transform 0.8s;
+    &:hover{
+      cursor: pointer;
+      cursor: hand;
+      animation: bounce 0.5s;
+    }
+    &.rotated {
+      transform: rotate(1.5turn);
+      -webkit-transition: transform 0.8s; /* Safari */
+      transition: transform 0.8s;
+    }
+  }
+  ul {
+    position: relative;
+    float: left;
+    left: 600px;
+    top: 6px;
+    display: inline-block;
+    -webkit-transition: left 0.8s; /* Safari */
+    transition: left 0.8s;
+    li {
+      a {
+        font-family: $comfortaa;
+        color: #ef6f31;
+        margin: 0px 15px;
+        padding: 0 5px;
+        font-size: 1.4em;
+        font-weight: bold;
+        line-height: 35px;
+        &:hover{
+          background-color: transparent;
+          border-bottom: 5px solid #ef6f31;
+        }
+      }
+    }
+  }
+  ul.expanded {
+    float: left;
+    margin-right: 23px;
+    left: 0;
+    -webkit-transition: left 0.8s; /* Safari */
+    transition: left 0.8s;
+  }
 }
 
+@keyframes bounce {
+  0% {
+    height: 50px;
+    width: 50px;
+  }
+  15% {
+    height: 53.5px;
+    width: 53.5px;
+  }
+  65% {
+    height: 49px;
+    width: 49px;
+  }
+  85% {
+    height: 51px;
+    width: 51px;
+  }
+  100% {
+    height: 50px;
+    width: 50px;
+  }
+}
