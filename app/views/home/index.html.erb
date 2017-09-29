@@ -1,54 +1,45 @@
-<%= stylesheet_link_tag "home" %>
 <%= stylesheet_link_tag "contact" %>
 <%= stylesheet_link_tag "about" %>
 <% title "Blake Burnette" %>
 <!-- Main -->
-
-<section id="hello-and-welcome">
-  <p>
-    veebiarendaja webontwikkelaar zhvilluesi i uebit Վեբ ծրագրավորողը geliştiricisi уеб разработчик desenvolupador sviluppatore udvikler ウェブ開発者 entènèt pwomotè programador ծրագրավորողը mahadar yanar gizo punaewele punaewele מפתח אינטרנט tsim tawm vefur verktaki forbróir gréasáin onye mmepụta weebụ ウェブ開発者 leasachaidh lìn веб-развивач horumariyaha ウェブ開発者 นักพัฒนาเว็บ nhà phát triển web iżviluppatur tal-web web developer veebiarendaja zhvilluesi i 开发人员 uebit Վեբ ծրագրավորողը web geliştiricisi уеб разработчик desenvolupador 开发人员 entènèt นักพัฒนาเว็บ web-udvikler pwomotè programador web mahadar yanar punaewele punaewele מפתח אינטרנט Web tsim tawm vefur verktaki forbróir gréasáin onye mmepụta weebụ ウェブ開発者 leasachaidh lìn 开发人员 веб <span class="darken">web developer</span> horumariyaha веб-развивач ウェブ開発者 นักพัฒนาเว็บ nhà phát triển web iżviluppatur tal-web web developer veebiarendaja webontwikkelaar zhvilluesi i uebit Վեբ ծրագրավորողը geliştiricisi уеб разработчик desenvolupador sviluppatore udvikler ウェブ開発者 entènèt pwomotè programador ծրագրավորողը mahadar yanar gizo punaewele punaewele מפתח אינטרנט tsim tawm vefur verktaki forbróir gréasáin onye mmepụta weebụ ウェブ開発者 leasachaidh lìn веб-развивач horumariyaha webka นักพัฒนาเว็บ nhà phát triển web iżviluppatur tal-web web developer veebiarendaja zhvilluesi i 开发人员 uebit Վեբ ծրագրավորողը web geliştiricisi уеб разработчик desenvolupador 开发人员 entènèt webka <span class="darken">web developer</span>  นักพัฒนาเว็บ web-udvikler pwomotè programador web mahadar yanar punaewele punaewele מפתח אינטרנט Web tsim tawm vefur verktaki forbróir gréasáin onye mmepụta weebụ ウェブ開発者 leasachaidh lìn веб-развивач horumariyaha webka นักพัฒนาเว็บ nhà phát triển web iżviluppatur tal-web web developer
-  </p>
-</div>
-
-<div id="home-nav" class="row remove-margin slideInLeft">
-  <a class="twenty-percent" href="#about-me">
-    <div id="one" data-id="about" class="link">
-      <i class="fa fa-user fa-5responsive" aria-hidden="true"></i>
-    </div>
-    <div class="underline"></div>
-  </a>
-  <a class="twenty-percent" href="work">
-    <div id="two" data-id="work" class="link">
-      <i class="fa fa-eye fa-5responsive" aria-hidden="true"></i>
-    </div>
-    <div class="underline"></div>
-  </a>
-  <a class="twenty-percent" href="https://github.com/blakeburnette" target="_blank">
-    <div id="three" data-id="code" class="link">
-      <i class="fa fa-code fa-5responsive" aria-hidden="true"></i>
-    </div>
-    <div class="underline"></div>
-  </a>
-  <a class="twenty-percent" href="fun_projects">
-    <div id="four" data-id="fun" class="link">
-      <i class="fa fa-bicycle fa-5responsive" aria-hidden="true"></i>
-    </div>
-    <div class="underline"></div>
-  </a>
-  <a class="twenty-percent" href="#contact-me">
-    <div id="five" data-id="contact" class="link">
-      <i class="fa fa-paper-plane-o fa-5responsive" aria-hidden="true"></i>
-    </div>
-    <div class="underline"></div>
-  </a>
+<section id="main-screen">
+  <%= video_tag("exploding_color_2.mov",
+                  controls: false,
+                  autoplay: true,
+                  muted: true,
+                  loop: false,
+                  controlsList: "nodownload",
+                  autobuffer: true,
+                  id: "home-screen-background") %>
+  <div id="keywords">welcome</div>
+  <div id="keywords-animation"></div>
 </section>
 
 <!-- About -->
 
+
+<!-- I love learning and exploring, whether it's a new city or new technology -->
+
+<!-- Everyone has their path, mine:
+
+I got into technology through design. I love good design, but I love solving problems even more. So, I taught myself how to solve problems.
+
+Solving problems is more important than technologies but the tools I use are  -->
+
+<!-- front-end web developer with some good design sense -->
+
+<!-- Skills
+What I do, I aim to do well or not at all -->
+
+<!-- Want to work together? I probably do, too. Tell me about yourself, your project, or just drop me a line and say hello. -->
+
+<!-- driven and permanently curious, I am now -->
+
+<!-- as much as I love design, I get bored with it. I would much prefer to solve problems -->
+
 <section id="about-me">
   <section>
-    <h4>whoami</h4>
-    <p>"Web Developer:</p>
+    <h4>web developer with a focus on the front-end</h4>
     <p>I am currently a javascript developer for a local start-up with a focus on the front-end of a Rails web application. I split my time 50/50 between RoR and Javascript.</p>
     <p>Daily I use these skills:</p>
     <div>
@@ -58,20 +49,7 @@
       </div>
     </div>
     <div>Ruby</div>
-      <div>
-        Foo foo bar
-      </div>
-    </div>
-    <div>
-      <div>Git</div>
-      <div>bar baz foo</div>
-    </div>
-    <div>
-      <div>UI</div>
-      <div>
-        Upgraded the site from a right hand side navbar with a fixed width.
-      </div>
-    </div>
+    <div>Git</div>
     <p>
       When not working I am exploring other languages like Elixir, having fun with design, doodle letters (typography)."
     </p>

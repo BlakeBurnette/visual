@@ -13,8 +13,8 @@ nav#toggle-nav {
   #nav-plus-toggle {
     height: 50px;
     width: 50px;
-    -webkit-transition: transform 0.8s; /* Safari */
-    transition: transform 0.8s;
+    -webkit-transition: transform 1.2s; /* Safari */
+    transition: transform 1.2s;
     &:hover{
       cursor: pointer;
       cursor: hand;
@@ -22,8 +22,8 @@ nav#toggle-nav {
     }
     &.rotated {
       transform: rotate(1.5turn);
-      -webkit-transition: transform 0.8s; /* Safari */
-      transition: transform 0.8s;
+      -webkit-transition: transform 1.2s; /* Safari */
+      transition: transform 1.2s;
     }
   }
   ul {
@@ -32,12 +32,12 @@ nav#toggle-nav {
     left: 600px;
     top: 6px;
     display: inline-block;
-    -webkit-transition: left 0.8s; /* Safari */
-    transition: left 0.8s;
+    -webkit-transition: left 1.2s; /* Safari */
+    transition: left 1.2s;
     li {
       a {
         font-family: $comfortaa;
-        color: #ef6f31;
+        color: $blue;
         margin: 0px 15px;
         padding: 0 5px;
         font-size: 1.4em;
@@ -45,7 +45,7 @@ nav#toggle-nav {
         line-height: 35px;
         &:hover{
           background-color: transparent;
-          border-bottom: 5px solid #ef6f31;
+          border-bottom: 5px solid $blue;
         }
       }
     }
@@ -54,8 +54,8 @@ nav#toggle-nav {
     float: left;
     margin-right: 23px;
     left: 0;
-    -webkit-transition: left 0.8s; /* Safari */
-    transition: left 0.8s;
+    -webkit-transition: left 1.2s; /* Safari */
+    transition: left 1.2s;
   }
 }
 
