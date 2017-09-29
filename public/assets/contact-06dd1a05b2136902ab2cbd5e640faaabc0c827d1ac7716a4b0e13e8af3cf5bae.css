@@ -1,0 +1,43 @@
+/*$arvo: 'Arvo', serif;
+$vollkorn: 'Vollkorn', serif;*/
+/* line 3, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me {
+  background: #c29fc6 url(/assets/contact_background-6a6e9b0fcaea95808ed1057499daa5992d0c6a40b7719c8a437005aee58c1a98.jpg) no-repeat left;
+  background-size: cover;
+  color: #131626;
+  height: 100vh;
+}
+/* line 8, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me .row {
+  margin-bottom: 0;
+}
+/* line 10, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #contact-info {
+  padding: 2vh 0 5vh;
+  height: auto;
+}
+/* line 13, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #contact-info .col.context {
+  color: #131626;
+}
+/* line 18, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #contact-form {
+  color: #d9d7ec;
+}
+/* line 20, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #contact-form form {
+  width: 75%;
+  padding: 15vh 0 0 10vw;
+}
+/* line 23, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #contact-form form input {
+  border-bottom: 1px solid white;
+}
+/* line 26, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #contact-form form label {
+  color: white;
+}
+/* line 29, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #contact-form form textarea#message {
+  border-bottom: 1px solid white;
+}
