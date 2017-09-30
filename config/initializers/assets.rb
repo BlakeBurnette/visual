@@ -14,5 +14,6 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 Rails.application.config.assets.precompile += %w[
   about_me.css
   contact.css
+  contact_request.css
   home.css
 ]
