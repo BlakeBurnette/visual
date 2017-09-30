@@ -1,4 +1,50 @@
+@import 'variables';
+
 #about-me {
-  background: #7bb6d4 image-url(about_background) no-repeat left;
-  height: 100vh;
+  background-color: white;
+  /*background: #7bb6d4 image-url(about_background) no-repeat left;*/
+  min-height: 100vh;
+
+  #who-am-i {
+    text-align: center;
+    margin-top: 25vh;
+    h4 {
+      font-family: $ubuntu;
+      font-weight: 700;
+      font-size: 8vw;
+      padding-top: 10vh;
+    }
+    p {
+      font-size: 3vw;
+      line-height: 1vw;
+    }
+  }
+
+  #experience-logos {
+    margin-top: 5vw;
+    div {
+      height: 15vw;
+      width: 15vw;
+      &.javascript-logo{
+        background-image: image-url(javascript_logo);
+        margin: 0 auto;
+        transition: background 0.35s linear;
+      }
+      &.ruby-logo{
+        background-image: image-url(ruby_logo);
+        margin: 0 auto;
+        transition: background 0.35s linear;
+      }
+      &.git-logo{
+        background-image: image-url(git_logo);
+        margin: 0 auto;
+        transition: background 0.35s linear;
+      }
+      &.react-logo{
+        background-image: image-url(react_logo);
+        margin: 0 auto;
+        transition: background 0.35s linear;
+      }
+    }
+  }
 }
