@@ -9,26 +9,31 @@
         <div>
           <i class="fa fa-envelope" aria-hidden="true"></i> jbburnette2@gmail.com
         </div>
-        <form class="col s12">
-          <div class="input-field col s12">
-            <input placeholder="Placeholder" id="name" type="text" class="validate">
-            <label for="name">First Name</label>
-          </div>
-          <div class="input-field col s12">
-            <input placeholder="Placeholder" id="email" type="text" class="validate">
-            <label for="email">Email</label>
-          </div>
-          <div class="input-field col s12">
-            <textarea id="message" class="materialize-textarea"></textarea>
-            <label for="message">Message</label>
-          </div>
-          <div class="row remove-margin col s12">
-            <button class="right btn waves-effect waves-light" type="submit" name="action">
-              Submit
-              <i class="fa fa-paper-plane" aria-hidden="true"></i>
-            </button>
-          </div>
-        </form>
+
+        <%= form_with scope: :contact_request,
+                      url: contact_request_index_path,
+                      local: true do |f| %>
+          <%= f.text_field :first_name,
+                           required: true,
+                           class: 'input-field',
+                           placeholder: 'First Name' %>
+          <%= f.text_field :last_name,
+                            required: true,
+                            class: 'input-field',
+                            placeholder: 'Last Name' %>
+          <%= f.text_field :email,
+                            required: true,
+                            type: 'email',
+                            class: 'validate input-field',
+                            placeholder: 'Email' %>
+          <%= f.text_area :message,
+                          required: true,
+                          class: 'materialize-textarea',
+                          placeholder: 'Message' %>
+          <%= button_tag( class: 'right btn purple darken-1 waves-effect waves-light') do %>
+            <i class="fa fa-paper-plane" aria-hidden="true"></i> Send Message
+          <% end %>
+        <% end %>
       </div>
     </div>
   </div>

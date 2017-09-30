@@ -20,14 +20,22 @@
     form {
       width: 75%;
       padding: 15vh 0 0 10vw;
-      input {
-        border-bottom: 1px solid white;
+      input.input-field,
+      textarea {
+        border-bottom: 1px solid #fff;
+        -webkit-box-shadow: 0 1px 0 0 #fff;
+        -moz-box-shadow: 0 1px 0 0 #fff;
+        box-shadow: 0 1px 0 0 #fff;
+      }
+      input.input-field:focus,
+      textarea:focus {
+        border-bottom: 1px solid #8e24aa;
+        -webkit-box-shadow: 0 1px 0 0 #8e24aa;
+        -moz-box-shadow: 0 1px 0 0 #8e24aa;
+        box-shadow: 0 1px 0 0 #8e24aa;
       }
       label {
         color: white;
-      }
-      textarea#message {
-        border-bottom: 1px solid white;
       }
     }
   }

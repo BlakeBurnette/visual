@@ -7,4 +7,7 @@ Rails.application.routes.draw do
   get '/code_examples', to: 'code_examples#index', as: 'code_examples'
   get '/fun_projects', to: 'fun_projects#index', as: 'fun_projects'
   get '/contact', to: 'contact#index', as: 'contact'
+  get '/contact_request', to: 'contact_request#show', as: 'contact_request_success'
+
+  resources :contact_request, only: [:show, :new, :create]
 end
