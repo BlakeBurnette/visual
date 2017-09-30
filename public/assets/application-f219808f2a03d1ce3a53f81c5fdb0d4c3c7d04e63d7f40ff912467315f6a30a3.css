@@ -87,10 +87,62 @@
 }
 /*$arvo: 'Arvo', serif;
 $vollkorn: 'Vollkorn', serif;*/
-/* line 1, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about.scss */
+/*$arvo: 'Arvo', serif;
+$vollkorn: 'Vollkorn', serif;*/
+/* line 3, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #about-me {
-  background: #7bb6d4 url(/assets/about_background-495a092e3d6feda3082e16c28df249bddd8b5d5ab3b3d275c2b0036f2d97a3cf.jpg) no-repeat left;
-  height: 100vh;
+  background-color: white;
+  min-height: 100vh;
+}
+/* line 6, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #who-am-i {
+  text-align: center;
+  margin-top: 25vh;
+}
+/* line 9, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #who-am-i h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 8vw;
+  padding-top: 10vh;
+}
+/* line 15, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #who-am-i p {
+  font-size: 3vw;
+  line-height: 1vw;
+}
+/* line 21, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #experience-logos {
+  margin-top: 5vw;
+}
+/* line 23, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #experience-logos div {
+  height: 15vw;
+  width: 15vw;
+}
+/* line 26, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #experience-logos div.javascript-logo {
+  background-image: url(/assets/javascript_logo-3bb34d06cc23266bc5045e3c873d84b0272df90b79b06b70c1daeaa3e8cf512a.svg);
+  margin: 0 auto;
+  transition: background 0.35s linear;
+}
+/* line 31, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #experience-logos div.ruby-logo {
+  background-image: url(/assets/ruby_logo-faaeda1fd1edd4dc8e729926868b154cfae20d4a981cf81137e288aecbf173a6.svg);
+  margin: 0 auto;
+  transition: background 0.35s linear;
+}
+/* line 36, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #experience-logos div.git-logo {
+  background-image: url(/assets/git_logo-d76e0e849d0299c0161ce35961c10af0fee019e9424f4b5c58624542dca6fc79.svg);
+  margin: 0 auto;
+  transition: background 0.35s linear;
+}
+/* line 41, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #experience-logos div.react-logo {
+  background-image: url(/assets/react_logo-0bc85e7625d0e226f084c5d1d1b65ed6578dca244695be12ff8b3e6af5b45325.svg);
+  margin: 0 auto;
+  transition: background 0.35s linear;
 }
 /*$arvo: 'Arvo', serif;
 $vollkorn: 'Vollkorn', serif;*/
@@ -3995,7 +4047,7 @@ $vollkorn: 'Vollkorn', serif;*/
   /* line 6, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
   body {
     font-family: "Open Sans", sans-serif;
-    background-color: white;
+    background-color: #fff;
     color: #131626;
   }
 
@@ -4194,12 +4246,12 @@ nav#toggle-nav ul.expanded {
 $vollkorn: 'Vollkorn', serif;*/
 /* line 3, /Users/blakeburnette/repos/visual/app/assets/stylesheets/page_and_content.scss */
 html {
-  background-color: #131626;
+  background-color: #fff;
 }
 
 /* line 7, /Users/blakeburnette/repos/visual/app/assets/stylesheets/page_and_content.scss */
 body {
-  background-color: #131626;
+  background-color: #fff;
   color: #131626;
 }
 h4 { margin-top: 0 !important;margin-bottom: 0 !important;}
@@ -14594,11 +14646,11 @@ footer.page-footer .contact-links {
 $vollkorn: 'Vollkorn', serif;*/
 /* line 3, /Users/blakeburnette/repos/visual/app/assets/stylesheets/page_and_content.scss */
 html {
-  background-color: #131626;
+  background-color: #fff;
 }
 
 /* line 7, /Users/blakeburnette/repos/visual/app/assets/stylesheets/page_and_content.scss */
 body {
-  background-color: #131626;
+  background-color: #fff;
   color: #131626;
 }

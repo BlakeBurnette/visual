@@ -12189,9 +12189,6 @@ var headerClick = function headerClick() {
 }
 
 setTimeout(function(){ headerClick() }, 1000);
-$(document).ready(function(){
-  $('.modal').modal();
-});
 // Check for jQuery.
 if (typeof jQuery === 'undefined') {
   // Check if require is a defined function.
@@ -22270,7 +22267,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-
 
 
 

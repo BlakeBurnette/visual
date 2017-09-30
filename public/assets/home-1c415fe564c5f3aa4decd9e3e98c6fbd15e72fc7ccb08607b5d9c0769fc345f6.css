@@ -3848,7 +3848,7 @@ $vollkorn: 'Vollkorn', serif;*/
   /* line 6, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
   body {
     font-family: "Open Sans", sans-serif;
-    background-color: white;
+    background-color: #fff;
     color: #131626;
   }
 

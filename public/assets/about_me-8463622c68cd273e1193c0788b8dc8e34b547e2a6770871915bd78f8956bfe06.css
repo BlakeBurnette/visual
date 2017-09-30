@@ -1,0 +1,57 @@
+/*$arvo: 'Arvo', serif;
+$vollkorn: 'Vollkorn', serif;*/
+/* line 3, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me {
+  background-color: white;
+  min-height: 100vh;
+}
+/* line 6, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #who-am-i {
+  text-align: center;
+  margin-top: 25vh;
+}
+/* line 9, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #who-am-i h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 8vw;
+  padding-top: 10vh;
+}
+/* line 15, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #who-am-i p {
+  font-size: 3vw;
+  line-height: 1vw;
+}
+/* line 21, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #experience-logos {
+  margin-top: 5vw;
+}
+/* line 23, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #experience-logos div {
+  height: 15vw;
+  width: 15vw;
+}
+/* line 26, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #experience-logos div.javascript-logo {
+  background-image: url(/assets/javascript_logo-3bb34d06cc23266bc5045e3c873d84b0272df90b79b06b70c1daeaa3e8cf512a.svg);
+  margin: 0 auto;
+  transition: background 0.35s linear;
+}
+/* line 31, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #experience-logos div.ruby-logo {
+  background-image: url(/assets/ruby_logo-faaeda1fd1edd4dc8e729926868b154cfae20d4a981cf81137e288aecbf173a6.svg);
+  margin: 0 auto;
+  transition: background 0.35s linear;
+}
+/* line 36, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #experience-logos div.git-logo {
+  background-image: url(/assets/git_logo-d76e0e849d0299c0161ce35961c10af0fee019e9424f4b5c58624542dca6fc79.svg);
+  margin: 0 auto;
+  transition: background 0.35s linear;
+}
+/* line 41, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#about-me #experience-logos div.react-logo {
+  background-image: url(/assets/react_logo-0bc85e7625d0e226f084c5d1d1b65ed6578dca244695be12ff8b3e6af5b45325.svg);
+  margin: 0 auto;
+  transition: background 0.35s linear;
+}
