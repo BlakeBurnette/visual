@@ -1,0 +1,181 @@
+/*$arvo: 'Arvo', serif;
+$vollkorn: 'Vollkorn', serif;*/
+/* line 3, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#web-developer,
+#exploring,
+#listed-experience,
+#learning {
+  background-color: white;
+  min-height: 100vh;
+}
+/* line 9, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#web-developer #who-am-i,
+#web-developer #curious,
+#web-developer #experience,
+#web-developer #motivations,
+#exploring #who-am-i,
+#exploring #curious,
+#exploring #experience,
+#exploring #motivations,
+#listed-experience #who-am-i,
+#listed-experience #curious,
+#listed-experience #experience,
+#listed-experience #motivations,
+#learning #who-am-i,
+#learning #curious,
+#learning #experience,
+#learning #motivations {
+  text-align: center;
+  margin-top: 25vh;
+}
+/* line 15, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#web-developer #who-am-i h4,
+#web-developer #curious h4,
+#web-developer #experience h4,
+#web-developer #motivations h4,
+#exploring #who-am-i h4,
+#exploring #curious h4,
+#exploring #experience h4,
+#exploring #motivations h4,
+#listed-experience #who-am-i h4,
+#listed-experience #curious h4,
+#listed-experience #experience h4,
+#listed-experience #motivations h4,
+#learning #who-am-i h4,
+#learning #curious h4,
+#learning #experience h4,
+#learning #motivations h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 8vw;
+  padding-top: 10vh;
+}
+/* line 21, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#web-developer #who-am-i p,
+#web-developer #curious p,
+#web-developer #experience p,
+#web-developer #motivations p,
+#exploring #who-am-i p,
+#exploring #curious p,
+#exploring #experience p,
+#exploring #motivations p,
+#listed-experience #who-am-i p,
+#listed-experience #curious p,
+#listed-experience #experience p,
+#listed-experience #motivations p,
+#learning #who-am-i p,
+#learning #curious p,
+#learning #experience p,
+#learning #motivations p {
+  font-size: 3vw;
+  line-height: 1vw;
+}
+/* line 27, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#web-developer #experience-logos,
+#web-developer #curious-logos,
+#exploring #experience-logos,
+#exploring #curious-logos,
+#listed-experience #experience-logos,
+#listed-experience #curious-logos,
+#learning #experience-logos,
+#learning #curious-logos {
+  margin-top: 5vw;
+}
+/* line 30, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#web-developer #experience-logos div,
+#web-developer #curious-logos div,
+#exploring #experience-logos div,
+#exploring #curious-logos div,
+#listed-experience #experience-logos div,
+#listed-experience #curious-logos div,
+#learning #experience-logos div,
+#learning #curious-logos div {
+  height: 15vw;
+  width: 15vw;
+}
+/* line 33, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#web-developer #experience-logos div.javascript-logo,
+#web-developer #curious-logos div.javascript-logo,
+#exploring #experience-logos div.javascript-logo,
+#exploring #curious-logos div.javascript-logo,
+#listed-experience #experience-logos div.javascript-logo,
+#listed-experience #curious-logos div.javascript-logo,
+#learning #experience-logos div.javascript-logo,
+#learning #curious-logos div.javascript-logo {
+  background-image: url(/assets/javascript_logo-3bb34d06cc23266bc5045e3c873d84b0272df90b79b06b70c1daeaa3e8cf512a.svg);
+  margin: 0 auto;
+  transition: background 0.35s linear;
+}
+/* line 38, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#web-developer #experience-logos div.ruby-logo,
+#web-developer #curious-logos div.ruby-logo,
+#exploring #experience-logos div.ruby-logo,
+#exploring #curious-logos div.ruby-logo,
+#listed-experience #experience-logos div.ruby-logo,
+#listed-experience #curious-logos div.ruby-logo,
+#learning #experience-logos div.ruby-logo,
+#learning #curious-logos div.ruby-logo {
+  background-image: url(/assets/ruby_logo-faaeda1fd1edd4dc8e729926868b154cfae20d4a981cf81137e288aecbf173a6.svg);
+  margin: 0 auto;
+  transition: background 0.35s linear;
+}
+/* line 43, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#web-developer #experience-logos div.git-logo,
+#web-developer #curious-logos div.git-logo,
+#exploring #experience-logos div.git-logo,
+#exploring #curious-logos div.git-logo,
+#listed-experience #experience-logos div.git-logo,
+#listed-experience #curious-logos div.git-logo,
+#learning #experience-logos div.git-logo,
+#learning #curious-logos div.git-logo {
+  background-image: url(/assets/git_logo-d76e0e849d0299c0161ce35961c10af0fee019e9424f4b5c58624542dca6fc79.svg);
+  margin: 0 auto;
+  transition: background 0.35s linear;
+}
+/* line 48, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#web-developer #experience-logos div.react-logo,
+#web-developer #curious-logos div.react-logo,
+#exploring #experience-logos div.react-logo,
+#exploring #curious-logos div.react-logo,
+#listed-experience #experience-logos div.react-logo,
+#listed-experience #curious-logos div.react-logo,
+#learning #experience-logos div.react-logo,
+#learning #curious-logos div.react-logo {
+  background-image: url(/assets/react_logo-0bc85e7625d0e226f084c5d1d1b65ed6578dca244695be12ff8b3e6af5b45325.svg);
+  margin: 0 auto;
+  transition: background 0.35s linear;
+}
+/* line 53, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#web-developer #experience-logos div.erlang-logo,
+#web-developer #curious-logos div.erlang-logo,
+#exploring #experience-logos div.erlang-logo,
+#exploring #curious-logos div.erlang-logo,
+#listed-experience #experience-logos div.erlang-logo,
+#listed-experience #curious-logos div.erlang-logo,
+#learning #experience-logos div.erlang-logo,
+#learning #curious-logos div.erlang-logo {
+  background-image: url(/assets/erlang_logo-ea1fece2053867c894c8311690038646646c55fa645b67741db8cbd047f0d92c.svg);
+  margin: 0 auto;
+  transition: background 0.35s linear;
+}
+/* line 58, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#web-developer #experience-logos div.python-logo,
+#web-developer #curious-logos div.python-logo,
+#exploring #experience-logos div.python-logo,
+#exploring #curious-logos div.python-logo,
+#listed-experience #experience-logos div.python-logo,
+#listed-experience #curious-logos div.python-logo,
+#learning #experience-logos div.python-logo,
+#learning #curious-logos div.python-logo {
+  background-image: url(/assets/python_logo-1c4df13e4f3b2f2a16699b664702704794cb0fd6a5667b7877eae26bbca362fe.svg);
+  margin: 0 auto;
+  transition: background 0.35s linear;
+}
+/* line 65, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#web-developer .experience-types,
+#exploring .experience-types,
+#listed-experience .experience-types,
+#learning .experience-types {
+  text-align: center;
+  height: 200px;
+}
