@@ -2,11 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
 
-class ExperienceIcons extends React.Component {
+class CuriousIcons extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      image: "javascript-logo",
+      image: "erlang-logo",
       imageIncrement: 0
     }
   }
@@ -23,7 +23,7 @@ class ExperienceIcons extends React.Component {
   }
 
   next() {
-    const images = ["javascript-logo", "ruby-logo", "git-logo", "react-logo"]
+    const images = ["erlang-logo", "python-logo"]
     var imageIncrement = this.state.imageIncrement < images.length - 1 ? this.state.imageIncrement + 1 : 0
     this.setState({
       image: images[this.state.imageIncrement],
@@ -39,6 +39,6 @@ class ExperienceIcons extends React.Component {
 }
 
 ReactDOM.render(
-  <ExperienceIcons />,
-  document.getElementById('experience-logos')
+  <CuriousIcons />,
+  document.getElementById('curious-logos')
 );

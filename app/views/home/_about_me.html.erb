@@ -1,80 +1,82 @@
 <%= stylesheet_link_tag "about_me" %>
-<!-- About -->
-
-<!-- I love learning and exploring, whether it's a new city or new technology -->
-
-<!-- Everyone has their path, mine:
-
-I got into technology through design. I love good design, but I love solving problems even more. So, I taught myself how to solve problems.
-
-Solving problems is more important than technologies but the tools I use are  -->
-
-<!-- Skills
-What I do, I aim to do well or not at all -->
-
-<!-- Want to work together? I probably do, too. Tell me about yourself, your project, or just drop me a line and say hello. -->
-
-<!-- driven and permanently curious, I am now -->
-
-<!-- as much as I love design, I get bored with it. I would much prefer to solve problems -->
-
- <!--  <section>
-    <h4>web developer with a focus on the front-end</h4>
-    <p>I am currently a javascript developer for a local start-up with a focus on the front-end of a Rails web application. I split my time 50/50 between RoR and Javascript.</p>
-    <p>Daily I use these skills:</p>
-    <div>
-      <div>Javascript</div>
-      <div>
-        This includes React using ES2017, Jquery with some limited Prototype and coffeescript for the portions of the app not using react, and when needed vanilla javascript paired with E4X on Java Rhino for an ETL called Myrth.
-      </div>
-    </div>
-    <div>Ruby</div>
-    <div>Git</div>
-    <p>
-      When not working I am exploring other languages like Elixir, having fun with design, doodle letters (typography)."
-    </p>
-  </section>
-  <section>
-    <h4>Technical Skills</h4>
-    <div>
-      <div>Front-end</div>
-      <div>
-        "javascript": ["ES2017", "React", "Angularjs", "Jquery"],
-        "css": ["Sass/Less", "Transitions", "Bootstrap", "Materialize"]
-      </div>
-    </div>
-    <div>Server-side</div>
-      <div>
-        "Server": ["Ruby", "Rails"],
-        "Testing": ["RSpec", "Minitest", "Capybara", {
-        "CI": ["TravisCI", "Semaphore"]
-      </div>
-    </div>
-    <div>
-      <div>Exploring</div>
-      <div>
-        ["Erlang", "Phoenix"]
-      </div>
-    </div>
-    <div>
-      <div>Content Management Systems</div>
-      <div>
-        ["Wordpress", "Drupal", "Four51"]
-      </div>
-    </div>
-  </section> -->
-  <!-- left side is avatar and icons for languages -->
-  <!-- on hover expands to show more details? -->
-
-<!-- web developer with a focus on the front-end -->
-<!-- front-end web developer with some good design sense -->
-
-<section id="about-me">
+<section id="web-developer">
   <div id="who-am-i">
     <h4>web developer</h4>
     <p>with a focus on the front-end</p>
   </div>
   <div id="experience-logos">
     <%= javascript_pack_tag 'experience_icons_react' %>
+  </div>
+</section>
+<section id="listed-experience">
+  <div id="experience">
+    <h4>i have worked with</h4>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col s12 l4 experience-types">
+        <h5>Javascript</h5>
+        <ul>
+          <li>ES2017</li>
+          <li>React</li>
+          <li>Angularjs</li>
+          <li>jQuery</li>
+        </ul>
+      </div>
+      <div class="col s12 l4 experience-types">
+        <h5>CSS</h5>
+        <ul>
+          <li>Sass/Less</li>
+          <li>Bootstrap</li>
+          <li>Materialize</li>
+          <li>Transitions/Keyframes</li>
+        </ul>
+      </div>
+      <div class="col s12 l4 experience-types">
+        <h5>Server-side</h5>
+        <ul>
+          <li>Ruby</li>
+          <li>Rails</li>
+        </ul>
+      </div>
+      <div class="col s12 l4 experience-types">
+        <h5>Testing</h5>
+        <ul>
+          <li>RSpec</li>
+          <li>Minitest</li>
+          <li>Capybara</li>
+          <li>Poltergeist</li>
+        </ul>
+      </div>
+      <div class="col s12 l4 experience-types">
+        <h5>Continuous Integration</h5>
+        <ul>
+          <li>Travis CI</li>
+          <li>Semaphore</li>
+        </ul>
+      </div>
+      <div class="col s12 l4 experience-types">
+        <h5>CMS</h5>
+        <ul>
+          <li>Wordpress</li>
+          <li>Drupal</li>
+          <li>Four51</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="learning">
+  <div id="motivations">
+    <h4>learn, explore, create</h4>
+  </div>
+</section>
+<section id="exploring">
+  <div id="curious">
+    <h4>permanently curious</h4>
+    <p>at the moment, I am exploring:</p>
+  </div>
+  <div id="curious-logos">
+    <%= javascript_pack_tag 'curious_icons_react' %>
   </div>
 </section>

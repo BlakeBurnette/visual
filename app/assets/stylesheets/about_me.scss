@@ -1,9 +1,15 @@
 @import 'variables';
 
-#about-me {
+#web-developer,
+#exploring,
+#listed-experience,
+#learning {
   background-color: white;
   min-height: 100vh;
-  #who-am-i {
+  #who-am-i,
+  #curious,
+  #experience,
+  #motivations {
     text-align: center;
     margin-top: 25vh;
     h4 {
@@ -18,7 +24,8 @@
     }
   }
 
-  #experience-logos {
+  #experience-logos,
+  #curious-logos {
     margin-top: 5vw;
     div {
       height: 15vw;
@@ -43,6 +50,20 @@
         margin: 0 auto;
         transition: background 0.35s linear;
       }
+      &.erlang-logo{
+        background-image: image-url(erlang_logo);
+        margin: 0 auto;
+        transition: background 0.35s linear;
+      }
+      &.python-logo{
+        background-image: image-url(python_logo);
+        margin: 0 auto;
+        transition: background 0.35s linear;
+      }
     }
+  }
+  .experience-types {
+    text-align: center;
+    height: 200px;
   }
 }
