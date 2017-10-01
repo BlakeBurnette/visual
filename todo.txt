@@ -1,5 +1,4 @@
 (Home)
-Background for mobile
 Downward arrow for scroll -- stretch
 Params
 
