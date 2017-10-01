@@ -51,38 +51,38 @@
     color: white;
     animation: fade-in 6s;
   }
-}
 
-@keyframes fade-in {
-  0% {
-    opacity: 0;
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    66% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 100%;
+    }
   }
-  66% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
 
-@keyframes home-animation {
-  0% {
-    height: 4px;
-    width: 40vw;
-    top: 72vh;
-    left: -65vw;
-  }
-  65% {
-    height: 4px;
-    width: 40vw;
-    top: 72vh;
-    left: 30vw;
-  }
-  100% {
-    height: 44vh;
-    width: 40vw;
-    top: 28vh;
-    left: 30vw;
+  @keyframes home-animation {
+    0% {
+      height: 4px;
+      width: 40vw;
+      top: 72vh;
+      left: -65vw;
+    }
+    65% {
+      height: 4px;
+      width: 40vw;
+      top: 72vh;
+      left: 30vw;
+    }
+    100% {
+      height: 44vh;
+      width: 40vw;
+      top: 28vh;
+      left: 30vw;
+    }
   }
 }
 
@@ -97,6 +97,9 @@
     height: 100vh;
     overflow: hidden;
     background-color: #fff;
+    video {
+      display: none;
+    }
   }
 
   #home-screen-background {
@@ -119,54 +122,65 @@
     position: absolute;
     background-color: rgba(237,0,91,0.2);
     animation: home-animation 4s;
-    height: 44vh;
-    width: 40vw;
+    height: 35vh;
+    width: 100vw;
     top: 28vh;
-    left: 30vw;
+    left: 0vw;
   }
 
   #keywords {
     position: absolute;
-    font-size: 4em;
-    top: 43vh;
+    font-size: 10em;
+    top: 39vh;
     width: 100%;
     text-align: center;
     font-weight: bolder;
     color: white;
     animation: fade-in 6s;
   }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    66% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+
+  @keyframes home-animation {
+    0% {
+      height: 4px;
+      width: 40vw;
+      top: 72vh;
+      left: -65vw;
+    }
+    65% {
+      height: 4px;
+      width: 100vw;
+      top: 72vh;
+      left: 0vw;
+    }
+    100% {
+      height: 35vh;
+      width: 100vw;
+      top: 28vh;
+      left: 0vw;
+    }
+  }
 }
 
-@keyframes fade-in {
-  0% {
-    opacity: 0;
+@media (max-width: 1200px) {
+  #main-screen {
+    background: $primary-color image-url(home_screen_mobile_fallback) no-repeat center;
+    background-size: cover;
+    video {display: none;}
   }
-  66% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
-
-@keyframes home-animation {
-  0% {
-    height: 4px;
-    width: 40vw;
-    top: 72vh;
-    left: -65vw;
-  }
-  65% {
-    height: 4px;
-    width: 40vw;
-    top: 72vh;
-    left: 30vw;
-  }
-  100% {
-    height: 44vh;
-    width: 40vw;
-    top: 28vh;
-    left: 30vw;
+  #keywords {
+    top: 41%;
   }
 }
 
