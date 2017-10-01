@@ -1,9 +1,5 @@
-(Home)
-Downward arrow for scroll -- stretch
-Params
-
 (About me)
-write content
+style content
 
 (Contact)
 Styling
@@ -12,7 +8,27 @@ Confirmation page
 (Footer)
 Update it so that is centered correctly in three divs with map of site
 
-==================tomorrow========================
-
 Fun
 Work
+
+Coming soon
+
+
+
+
+
+
+
+
+
+================stretch============================
+
+(Home)
+Downward arrow for scroll -- stretch
+Params -- stretch
+
+errors
+
+testing
+
+clean up email
