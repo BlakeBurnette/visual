@@ -4,18 +4,14 @@ Downward arrow for scroll -- stretch
 Params
 
 (About me)
-Get logos and stuff in there
 write content
-Clean that up
 
 (Contact)
 Styling
 Confirmation page
-Send email
 
 (Footer)
 Update it so that is centered correctly in three divs with map of site
-Needs different design
 
 ==================tomorrow========================
 
