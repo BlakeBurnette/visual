@@ -30,14 +30,22 @@ $vollkorn: 'Vollkorn', serif;*/
   padding: 15vh 0 0 10vw;
 }
 /* line 23, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
-#contact-me #contact-form form input {
-  border-bottom: 1px solid white;
+#contact-me #contact-form form input.input-field,
+#contact-me #contact-form form textarea {
+  border-bottom: 1px solid #fff;
+  -webkit-box-shadow: 0 1px 0 0 #fff;
+  -moz-box-shadow: 0 1px 0 0 #fff;
+  box-shadow: 0 1px 0 0 #fff;
 }
-/* line 26, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+/* line 30, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #contact-form form input.input-field:focus,
+#contact-me #contact-form form textarea:focus {
+  border-bottom: 1px solid #8e24aa;
+  -webkit-box-shadow: 0 1px 0 0 #8e24aa;
+  -moz-box-shadow: 0 1px 0 0 #8e24aa;
+  box-shadow: 0 1px 0 0 #8e24aa;
+}
+/* line 37, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
 #contact-me #contact-form form label {
   color: white;
-}
-/* line 29, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
-#contact-me #contact-form form textarea#message {
-  border-bottom: 1px solid white;
 }
