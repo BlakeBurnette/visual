@@ -3931,22 +3931,102 @@ $vollkorn: 'Vollkorn', serif;*/
   }
 }
 @media (orientation: portrait) {
-  /* line 89, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
-  * {
-    display: none;
+  /* line 90, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #fff;
+    color: #131626;
+  }
+
+  /* line 96, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  #main-screen {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #fff;
+  }
+
+  /* line 102, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  #home-screen-background {
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+  }
+
+  /* box animation */
+  /* line 118, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  #keywords-animation {
+    position: absolute;
+    background-color: rgba(237, 0, 91, 0.2);
+    animation: home-animation 4s;
+    height: 44vh;
+    width: 40vw;
+    top: 28vh;
+    left: 30vw;
+  }
+
+  /* line 128, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  #keywords {
+    position: absolute;
+    font-size: 4em;
+    top: 43vh;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    animation: fade-in 6s;
   }
 }
-/* line 91, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes home-animation {
+  0% {
+    height: 4px;
+    width: 40vw;
+    top: 72vh;
+    left: -65vw;
+  }
+  65% {
+    height: 4px;
+    width: 40vw;
+    top: 72vh;
+    left: 30vw;
+  }
+  100% {
+    height: 44vh;
+    width: 40vw;
+    top: 28vh;
+    left: 30vw;
+  }
+}
+/* line 173, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
 video::-internal-media-controls-download-button {
   display: none;
 }
 
-/* line 95, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+/* line 177, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
 video::-webkit-media-controls-enclosure {
   overflow: hidden;
 }
 
-/* line 99, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+/* line 181, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
 video::-webkit-media-controls-panel {
   width: calc(100% + 30px);
   /* Adjust as needed */
