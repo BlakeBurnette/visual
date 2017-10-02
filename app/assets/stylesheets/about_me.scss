@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'animations';
 
 #web-developer,
 #exploring,
@@ -65,5 +66,44 @@
   .experience-types {
     text-align: center;
     height: 200px;
+    border: 1px solid black;
+    margin-bottom: 5em;
+  }
+
+  #motivations {
+    margin-top: 0;
+    margin-bottom: 75vh;
+    h4 {
+      padding-top: 0;
+    }
+  }
+}
+
+#learning{
+  #motivations h4 {
+    font-size: 7vw;
+  }
+  #values {
+    &.visible {
+      animation: fadeInAndFlipUp 0.75s;
+    }
+  }
+  #lightbulb-small {
+    margin: 30vh 40vw 0;
+    max-width: 20vw;
+    height: auto;
+    width: auto;
+  }
+}
+
+#listed-experience .container {
+  margin-top: 8vh;
+}
+
+@media (max-width: 1200px) {
+  #values {
+    &.display-mobile {
+      animation: fadeInAndFlipUp 0.75s;
+    }
   }
 }

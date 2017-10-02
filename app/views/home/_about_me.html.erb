@@ -1,4 +1,5 @@
 <%= stylesheet_link_tag "about_me" %>
+<%= javascript_include_tag "about_me" %>
 <section id="web-developer">
   <div id="who-am-i">
     <h4>web developer</h4>
@@ -14,7 +15,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col s12 l4 experience-types">
+      <div class="col offset-s3 s6 experience-types">
         <h5>Javascript</h5>
         <ul>
           <li>ES2017</li>
@@ -23,7 +24,7 @@
           <li>jQuery</li>
         </ul>
       </div>
-      <div class="col s12 l4 experience-types">
+      <div class="col offset-s3 s6 experience-types">
         <h5>CSS</h5>
         <ul>
           <li>Sass/Less</li>
@@ -32,14 +33,14 @@
           <li>Transitions/Keyframes</li>
         </ul>
       </div>
-      <div class="col s12 l4 experience-types">
+      <div class="col offset-s3 s6 experience-types">
         <h5>Server-side</h5>
         <ul>
           <li>Ruby</li>
           <li>Rails</li>
         </ul>
       </div>
-      <div class="col s12 l4 experience-types">
+      <div class="col offset-s3 s6 experience-types">
         <h5>Testing</h5>
         <ul>
           <li>RSpec</li>
@@ -48,14 +49,14 @@
           <li>Poltergeist</li>
         </ul>
       </div>
-      <div class="col s12 l4 experience-types">
+      <div class="col offset-s3 s6 experience-types">
         <h5>Continuous Integration</h5>
         <ul>
           <li>Travis CI</li>
           <li>Semaphore</li>
         </ul>
       </div>
-      <div class="col s12 l4 experience-types">
+      <div class="col offset-s3 s6 experience-types">
         <h5>CMS</h5>
         <ul>
           <li>Wordpress</li>
@@ -67,8 +68,16 @@
   </div>
 </section>
 <section id="learning">
+  <%= image_tag('lightbulb_small', id: 'lightbulb-small') %>
   <div id="motivations">
-    <h4>learn, explore, create</h4>
+    <h4 id="keys">
+      {
+        <span id="learn">learn,</span>
+        <span id="explore">explore,</span>
+        <span id="create">create</span>
+      }
+    </h4>
+    <p id="values"></p>
   </div>
 </section>
 <section id="exploring">
