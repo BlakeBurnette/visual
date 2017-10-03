@@ -285,11 +285,28 @@ $vollkorn: 'Vollkorn', serif;*/
 #listed-experience .experience-types,
 #learning .experience-types {
   text-align: center;
-  height: 200px;
-  border: 1px solid black;
   margin-bottom: 5em;
 }
-/* line 73, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 69, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#web-developer .experience-types h5,
+#exploring .experience-types h5,
+#listed-experience .experience-types h5,
+#learning .experience-types h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  color: #74c7d7;
+}
+/* line 76, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#web-developer .experience-types ul li,
+#exploring .experience-types ul li,
+#listed-experience .experience-types ul li,
+#learning .experience-types ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+/* line 84, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer #motivations,
 #exploring #motivations,
 #listed-experience #motivations,
@@ -297,7 +314,7 @@ $vollkorn: 'Vollkorn', serif;*/
   margin-top: 0;
   margin-bottom: 75vh;
 }
-/* line 76, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 87, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer #motivations h4,
 #exploring #motivations h4,
 #listed-experience #motivations h4,
@@ -305,29 +322,72 @@ $vollkorn: 'Vollkorn', serif;*/
   padding-top: 0;
 }
 
-/* line 83, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 93, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#who-am-i {
+  margin-top: 45vh !important;
+}
+
+/* line 98, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #learning #motivations h4 {
   font-size: 7vw;
 }
-/* line 87, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 102, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #learning #values.visible {
   animation: fadeInAndFlipUp 0.75s;
 }
-/* line 91, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
-#learning #lightbulb-small {
-  margin: 30vh 40vw 0;
+/* line 106, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#learning #lightbulb-smoke {
+  margin: 30vh 40vw 5vh;
   max-width: 20vw;
   height: auto;
   width: auto;
 }
 
-/* line 99, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 114, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+img#brush {
+  margin: 0 auto;
+  max-width: 50vw;
+  height: auto;
+  width: auto;
+}
+
+/* line 121, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+img#point-down,
+img#point-up {
+  margin: 10vh auto;
+  max-width: 50vw;
+  height: auto;
+  width: auto;
+}
+
+/* line 129, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+img#point-up {
+  transform: rotate(180deg);
+}
+
+/* line 133, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+img#point-down {
+  margin-top: 20vh;
+  margin-bottom: 50vh;
+}
+
+/* line 138, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #listed-experience .container {
-  margin-top: 8vh;
+  margin-top: 20vh;
+}
+
+/* line 142, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#experience {
+  padding: 5vh 0;
+}
+/* line 144, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+#experience h4 {
+  padding-top: 3vh !important;
+  color: #1f3441;
 }
 
 @media (max-width: 1200px) {
-  /* line 105, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+  /* line 152, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
   #values.display-mobile {
     animation: fadeInAndFlipUp 0.75s;
   }

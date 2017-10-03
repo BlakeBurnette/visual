@@ -65,9 +65,20 @@
   }
   .experience-types {
     text-align: center;
-    height: 200px;
-    border: 1px solid black;
     margin-bottom: 5em;
+    h5 {
+      font-family: $open-sans;
+      font-size: 4em;
+      font-weight: 700;
+      color: #74c7d7;
+    }
+    ul {
+      li {
+        font-family: $open-sans;
+        font-size: 2.5em;
+        font-weight: 500;
+      }
+    }
   }
 
   #motivations {
@@ -79,6 +90,10 @@
   }
 }
 
+#who-am-i {
+  margin-top: 45vh !important;
+}
+
 #learning{
   #motivations h4 {
     font-size: 7vw;
@@ -88,16 +103,48 @@
       animation: fadeInAndFlipUp 0.75s;
     }
   }
-  #lightbulb-small {
-    margin: 30vh 40vw 0;
+  #lightbulb-smoke {
+    margin: 30vh 40vw 5vh;
     max-width: 20vw;
     height: auto;
     width: auto;
   }
 }
 
+img#brush {
+  margin: 0 auto;
+  max-width: 50vw;
+  height: auto;
+  width: auto;
+}
+
+img#point-down,
+img#point-up {
+  margin: 10vh auto;
+  max-width: 50vw;
+  height: auto;
+  width: auto;
+}
+
+img#point-up {
+  transform: rotate(180deg);
+}
+
+img#point-down {
+  margin-top: 20vh;
+  margin-bottom: 50vh;
+}
+
 #listed-experience .container {
-  margin-top: 8vh;
+  margin-top: 20vh;
+}
+
+#experience {
+  padding: 5vh 0;
+  h4 {
+    padding-top: 3vh !important;
+    color: #1f3441;
+  }
 }
 
 @media (max-width: 1200px) {
