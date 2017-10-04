@@ -16,5 +16,7 @@ Rails.application.config.assets.precompile += %w[
   about_me.js
   contact.css
   contact_request.css
+  fun_projects.css
   home.css
+  work.css
 ]
