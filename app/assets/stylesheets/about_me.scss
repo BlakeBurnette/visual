@@ -154,3 +154,9 @@ img#point-down {
     }
   }
 }
+
+@media (orientation:portrait) {
+  #experience h4 {
+    font-size: 13vw !important;
+  }
+}
