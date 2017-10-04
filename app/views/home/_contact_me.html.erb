@@ -1,42 +1,41 @@
 <section id="contact-me">
-  <div class="row remove-margin">
-    <div id="contact-info">
-      <div id="contact-form" class="col s6">
-        <h4>Get in touch</h4>
-        <p>Want to get in touch? Please have a seat and someone will be right with you</p>
-        <p>just kidding, send me a message telling me about yourself, your project, or feel free to just say hello</p>
-        <div>
-          <i class="fa fa-phone" aria-hidden="true"></i> 919.559.2872
-        </div>
-        <div>
-          <i class="fa fa-envelope" aria-hidden="true"></i> jbburnette2@gmail.com
-        </div>
-
-        <%= form_with scope: :contact_request,
-                      url: contact_request_index_path,
-                      local: true do |f| %>
-          <%= f.text_field :first_name,
-                           required: true,
-                           class: 'input-field',
-                           placeholder: 'First Name' %>
-          <%= f.text_field :last_name,
-                            required: true,
-                            class: 'input-field',
-                            placeholder: 'Last Name' %>
-          <%= f.text_field :email,
-                            required: true,
-                            type: 'email',
-                            class: 'validate input-field',
-                            placeholder: 'Email' %>
-          <%= f.text_area :message,
-                          required: true,
-                          class: 'materialize-textarea',
-                          placeholder: 'Message' %>
-          <%= button_tag( class: 'right btn purple darken-1 waves-effect waves-light') do %>
-            <i class="fa fa-paper-plane" aria-hidden="true"></i> Send Message
-          <% end %>
-        <% end %>
-      </div>
+  <%= image_tag('owl.jpg', id: 'owl') %>
+  <div id="get-in-touch">
+    <h4>get in touch</h4>
+    <div id="email">
+      <i class="fa fa-envelope" aria-hidden="true"></i> jbburnette2@gmail.com
+    </div>
+    <div id="telephone-number">
+      <i class="fa fa-phone" aria-hidden="true"></i> 919.559.2872
     </div>
   </div>
+  <div id="contact-form">
+    <%= form_with scope: :contact_request,
+                  url: contact_request_index_path,
+                  local: true do |f| %>
+      <%= f.text_field :first_name,
+                       required: true,
+                       class: 'input-field white-text',
+                       placeholder: 'First Name' %>
+      <%= f.text_field :last_name,
+                        required: true,
+                        class: 'input-field white-text',
+                        placeholder: 'Last Name' %>
+      <%= f.text_field :email,
+                        required: true,
+                        type: 'email',
+                        class: 'validate input-field white-text',
+                        placeholder: 'Email' %>
+      <%= f.text_area :message,
+                      required: true,
+                      class: 'materialize-textarea white-text',
+                      placeholder: 'Message' %>
+      <div id="contact-submit">
+        <%= button_tag(class: 'btn purple darken-1 waves-effect waves-light') do %>
+          <i class="fa fa-paper-plane" aria-hidden="true"></i> Send Owl
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+
 </section>
