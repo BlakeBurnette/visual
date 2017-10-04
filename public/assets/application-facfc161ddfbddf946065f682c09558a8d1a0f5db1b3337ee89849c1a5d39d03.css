@@ -694,6 +694,10 @@ footer.page-footer {
 footer.page-footer .contact-links {
   padding: 0 0.5em;
 }
+/* line 1, /Users/blakeburnette/repos/visual/app/assets/stylesheets/fun_projects.scss */
+h1 {
+  margin-top: 20vh;
+}
 /*$arvo: 'Arvo', serif;
 $vollkorn: 'Vollkorn', serif;*/
 /* slide in left */
@@ -4874,6 +4878,11 @@ body {
   background-color: #fff;
   color: #131626;
 }
+
+/* line 12, /Users/blakeburnette/repos/visual/app/assets/stylesheets/page_and_content.scss */
+#main-content {
+  min-height: 80vh;
+}
 h4 { margin-top: 0 !important;margin-bottom: 0 !important;}
 form { margin-top: 0 !important;margin-bottom: 0 !important;}
 
@@ -5030,6 +5039,10 @@ form { margin-top: 0 !important;margin-bottom: 0 !important;}
       color: rgba(217,215,236,0.6);
     }
   }
+}
+/* line 1, /Users/blakeburnette/repos/visual/app/assets/stylesheets/work.scss */
+h1 {
+  margin-top: 20vh;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
@@ -15273,4 +15286,9 @@ html {
 body {
   background-color: #fff;
   color: #131626;
+}
+
+/* line 12, /Users/blakeburnette/repos/visual/app/assets/stylesheets/page_and_content.scss */
+#main-content {
+  min-height: 80vh;
 }
