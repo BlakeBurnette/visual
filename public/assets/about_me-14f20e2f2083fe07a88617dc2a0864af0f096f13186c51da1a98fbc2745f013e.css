@@ -392,3 +392,9 @@ img#point-down {
     animation: fadeInAndFlipUp 0.75s;
   }
 }
+@media (orientation: portrait) {
+  /* line 159, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+  #experience h4 {
+    font-size: 13vw !important;
+  }
+}

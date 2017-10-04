@@ -1,0 +1,128 @@
+/*$arvo: 'Arvo', serif;
+$vollkorn: 'Vollkorn', serif;*/
+/* line 3, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me {
+  background-size: cover;
+  color: #131626;
+  min-height: 200vh;
+}
+@media (max-height: 600px) {
+  /* line 3, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+  #contact-me {
+    height: 400vh;
+  }
+}
+/* line 9, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #contact-form {
+  /* responsive width */
+  width: 80vw;
+  /* responsive margin */
+  margin: 0 10vw;
+  padding: 0 10vw;
+  float: left;
+  color: #131626;
+}
+@media (orientation: portrait), (max-width: 1200px) {
+  /* line 9, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+  #contact-me #contact-form {
+    width: 90vw;
+  }
+}
+@media (orientation: portrait), (max-width: 1200px) {
+  /* line 9, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+  #contact-me #contact-form {
+    margin: 0 5vw;
+  }
+}
+/* line 25, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #contact-form form {
+  background-color: #62b6bf;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  padding: 5vh;
+}
+@media (max-height: 600px) {
+  /* line 25, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+  #contact-me #contact-form form {
+    height: 120vh;
+  }
+}
+/* line 32, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #contact-form form input.input-field,
+#contact-me #contact-form form textarea {
+  border-bottom: 1px solid #fff;
+  -webkit-box-shadow: 0 1px 0 0 #fff;
+  -moz-box-shadow: 0 1px 0 0 #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+/* line 39, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #contact-form form input.input-field:focus,
+#contact-me #contact-form form textarea:focus {
+  border-bottom: 1px solid #8e24aa;
+  -webkit-box-shadow: 0 1px 0 0 #8e24aa;
+  -moz-box-shadow: 0 1px 0 0 #8e24aa;
+  box-shadow: 0 1px 0 0 #8e24aa;
+}
+/* line 46, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #contact-form form label {
+  color: white;
+}
+/* line 49, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #contact-form form #contact-submit {
+  width: 100%;
+  text-align: center;
+}
+/* line 55, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #get-in-touch {
+  padding-bottom: 3vh;
+  text-align: center;
+}
+/* line 58, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #get-in-touch h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 8vw;
+  padding-top: 10vh;
+}
+/* line 64, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #get-in-touch i {
+  margin-right: 0.5em;
+}
+/* line 67, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me #get-in-touch #email {
+  padding: 1em 0 0.25em;
+}
+/* line 72, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me img#owl {
+  margin: 0 auto;
+  max-width: 53vw;
+  height: auto;
+  width: auto;
+  transform: rotate(48deg);
+  position: relative;
+  right: 82px;
+  top: 10vh;
+}
+/* line 83, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me ::-webkit-input-placeholder {
+  color: #00008b;
+  opacity: 1 !important;
+  /* for older chrome versions. may no longer apply. */
+}
+/* line 88, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me :-moz-placeholder {
+  /* Firefox 18- */
+  color: #00008b;
+  opacity: 1 !important;
+}
+/* line 93, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #00008b;
+  opacity: 1 !important;
+}
+/* line 98, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact.scss */
+#contact-me :-ms-input-placeholder {
+  color: #00008b;
+}

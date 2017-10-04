@@ -1,0 +1,48 @@
+/*$arvo: 'Arvo', serif;
+$vollkorn: 'Vollkorn', serif;*/
+/* line 3, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact_request.scss */
+#message-confirmation {
+  min-height: 100vh;
+}
+/* line 5, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact_request.scss */
+#message-confirmation #message {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  padding: 5em 5em 2em;
+  background-color: #00008b;
+  color: white;
+}
+/* line 11, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact_request.scss */
+#message-confirmation #message h4 {
+  color: lightcoral;
+}
+/* line 12, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact_request.scss */
+#message-confirmation #message h4,
+#message-confirmation #message #success-message {
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+/* line 17, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact_request.scss */
+#message-confirmation #message .message-content {
+  padding-top: 1em;
+  text-align: center;
+}
+/* line 20, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact_request.scss */
+#message-confirmation #message .message-content .message-piece,
+#message-confirmation #message .message-content .message-value {
+  display: block;
+}
+/* line 24, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact_request.scss */
+#message-confirmation #message .message-content .message-piece {
+  font-size: 1.5em;
+  color: lightcoral;
+}
+/* line 28, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact_request.scss */
+#message-confirmation #message .message-content .message-value {
+  margin-top: 0.25em;
+}
+/* line 32, /Users/blakeburnette/repos/visual/app/assets/stylesheets/contact_request.scss */
+#message-confirmation #message #keep-exploring {
+  padding-top: 3em;
+  text-align: center;
+}
