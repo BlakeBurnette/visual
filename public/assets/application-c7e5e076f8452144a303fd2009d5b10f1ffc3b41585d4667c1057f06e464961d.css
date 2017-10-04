@@ -689,8 +689,9 @@ $vollkorn: 'Vollkorn', serif;*/
 /* line 3, /Users/blakeburnette/repos/visual/app/assets/stylesheets/footer.scss */
 footer.page-footer {
   background-color: #00008b;
+  margin-top: 10vh;
 }
-/* line 6, /Users/blakeburnette/repos/visual/app/assets/stylesheets/footer.scss */
+/* line 7, /Users/blakeburnette/repos/visual/app/assets/stylesheets/footer.scss */
 footer.page-footer .contact-links {
   padding: 0 0.5em;
 }
@@ -15269,8 +15270,9 @@ $vollkorn: 'Vollkorn', serif;*/
 /* line 3, /Users/blakeburnette/repos/visual/app/assets/stylesheets/footer.scss */
 footer.page-footer {
   background-color: #00008b;
+  margin-top: 10vh;
 }
-/* line 6, /Users/blakeburnette/repos/visual/app/assets/stylesheets/footer.scss */
+/* line 7, /Users/blakeburnette/repos/visual/app/assets/stylesheets/footer.scss */
 footer.page-footer .contact-links {
   padding: 0 0.5em;
 }
