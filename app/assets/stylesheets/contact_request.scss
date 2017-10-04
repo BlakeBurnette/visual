@@ -1,3 +1,37 @@
+@import 'variables';
+
 #message-confirmation {
   min-height: 100vh;
+  #message {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    padding: 5em 5em 2em;
+    background-color: $blue;
+    color: white;
+    h4 {color: lightcoral;}
+    h4,
+    #success-message {
+      padding-bottom: 0.5em;
+      text-align: center;
+    }
+    .message-content {
+      padding-top: 1em;
+      text-align: center;
+      .message-piece,
+      .message-value {
+        display: block;
+      }
+      .message-piece {
+        font-size: 1.5em;
+        color: lightcoral;
+      }
+      .message-value {
+        margin-top: 0.25em;
+      }
+    }
+    #keep-exploring {
+      padding-top: 3em;
+      text-align: center;
+    }
+  }
 }
