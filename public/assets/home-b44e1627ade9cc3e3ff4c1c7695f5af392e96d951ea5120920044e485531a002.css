@@ -4015,7 +4015,7 @@ $vollkorn: 'Vollkorn', serif;*/
   #keywords {
     position: absolute;
     font-size: 10em;
-    top: 39vh;
+    top: 41vh;
     width: 100%;
     text-align: center;
     font-weight: bolder;
@@ -4080,7 +4080,7 @@ $vollkorn: 'Vollkorn', serif;*/
 
   /* line 202, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
   #keywords {
-    top: 36%;
+    top: 41%;
   }
 }
 /* line 207, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */

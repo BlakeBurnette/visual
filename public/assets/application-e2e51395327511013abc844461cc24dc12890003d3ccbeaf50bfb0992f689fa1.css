@@ -4725,7 +4725,7 @@ $vollkorn: 'Vollkorn', serif;*/
   #keywords {
     position: absolute;
     font-size: 10em;
-    top: 39vh;
+    top: 41vh;
     width: 100%;
     text-align: center;
     font-weight: bolder;
@@ -4790,7 +4790,7 @@ $vollkorn: 'Vollkorn', serif;*/
 
   /* line 202, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
   #keywords {
-    top: 36%;
+    top: 41%;
   }
 }
 /* line 207, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
@@ -4869,18 +4869,12 @@ nav#toggle-nav ul li a {
   font-weight: bold;
   line-height: 35px;
 }
-@media (orientation: portrait), (max-width: 1080px) {
-  /* line 38, /Users/blakeburnette/repos/visual/app/assets/stylesheets/nav_header.scss */
-  nav#toggle-nav ul li a {
-    font-size: 2.4em;
-  }
-}
-/* line 47, /Users/blakeburnette/repos/visual/app/assets/stylesheets/nav_header.scss */
+/* line 46, /Users/blakeburnette/repos/visual/app/assets/stylesheets/nav_header.scss */
 nav#toggle-nav ul li a:hover {
   background-color: transparent;
   border-bottom: 5px solid #00008b;
 }
-/* line 54, /Users/blakeburnette/repos/visual/app/assets/stylesheets/nav_header.scss */
+/* line 53, /Users/blakeburnette/repos/visual/app/assets/stylesheets/nav_header.scss */
 nav#toggle-nav ul.expanded {
   float: left;
   margin-right: 23px;
@@ -15273,18 +15267,12 @@ nav#toggle-nav ul li a {
   font-weight: bold;
   line-height: 35px;
 }
-@media (orientation: portrait), (max-width: 1080px) {
-  /* line 38, /Users/blakeburnette/repos/visual/app/assets/stylesheets/nav_header.scss */
-  nav#toggle-nav ul li a {
-    font-size: 2.4em;
-  }
-}
-/* line 47, /Users/blakeburnette/repos/visual/app/assets/stylesheets/nav_header.scss */
+/* line 46, /Users/blakeburnette/repos/visual/app/assets/stylesheets/nav_header.scss */
 nav#toggle-nav ul li a:hover {
   background-color: transparent;
   border-bottom: 5px solid #00008b;
 }
-/* line 54, /Users/blakeburnette/repos/visual/app/assets/stylesheets/nav_header.scss */
+/* line 53, /Users/blakeburnette/repos/visual/app/assets/stylesheets/nav_header.scss */
 nav#toggle-nav ul.expanded {
   float: left;
   margin-right: 23px;

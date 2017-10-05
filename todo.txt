@@ -1,10 +1,8 @@
 Travis CI integration
+More prominent github link
+Have fun
 
 ================stretch============================
 
-fun error pages
-
+error pages
 testing
-
-Add work examples
-Add fun projects
