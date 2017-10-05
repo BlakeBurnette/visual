@@ -56,8 +56,10 @@
     max-width: 25vw;
     text-align: center;
     margin: 0 auto;
-    position: relative;
-    bottom: 8vh;
+    &.personal{
+      position: relative;
+      bottom: 8vh;
+    }
   }
 
   @keyframes fade-in {
@@ -151,8 +153,10 @@
     max-width: 40vw;
     text-align: center;
     margin: 0 auto;
-    position: relative;
-    bottom: 3vh;
+    &.personal{
+      position: relative;
+      bottom: 3vh;
+    }
   }
 
   @keyframes fade-in {
