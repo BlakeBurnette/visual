@@ -116,7 +116,16 @@ $vollkorn: 'Vollkorn', serif;*/
   background-color: white;
   min-height: 100vh;
 }
-/* line 10, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+@media (orientation: portrait) {
+  /* line 4, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+  #web-developer,
+  #exploring,
+  #listed-experience,
+  #learning {
+    min-height: 75vh;
+  }
+}
+/* line 11, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer #who-am-i,
 #web-developer #curious,
 #web-developer #experience,
@@ -136,7 +145,7 @@ $vollkorn: 'Vollkorn', serif;*/
   text-align: center;
   margin-top: 25vh;
 }
-/* line 16, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 17, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer #who-am-i h4,
 #web-developer #curious h4,
 #web-developer #experience h4,
@@ -158,7 +167,7 @@ $vollkorn: 'Vollkorn', serif;*/
   font-size: 8vw;
   padding-top: 10vh;
 }
-/* line 22, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 23, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer #who-am-i p,
 #web-developer #curious p,
 #web-developer #experience p,
@@ -178,7 +187,7 @@ $vollkorn: 'Vollkorn', serif;*/
   font-size: 3vw;
   line-height: 1vw;
 }
-/* line 28, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 29, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer #experience-logos,
 #web-developer #curious-logos,
 #exploring #experience-logos,
@@ -189,7 +198,7 @@ $vollkorn: 'Vollkorn', serif;*/
 #learning #curious-logos {
   margin-top: 5vw;
 }
-/* line 31, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 32, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer #experience-logos div,
 #web-developer #curious-logos div,
 #exploring #experience-logos div,
@@ -201,7 +210,7 @@ $vollkorn: 'Vollkorn', serif;*/
   height: 15vw;
   width: 15vw;
 }
-/* line 34, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 35, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer #experience-logos div.javascript-logo,
 #web-developer #curious-logos div.javascript-logo,
 #exploring #experience-logos div.javascript-logo,
@@ -214,7 +223,7 @@ $vollkorn: 'Vollkorn', serif;*/
   margin: 0 auto;
   transition: background 0.35s linear;
 }
-/* line 39, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 40, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer #experience-logos div.ruby-logo,
 #web-developer #curious-logos div.ruby-logo,
 #exploring #experience-logos div.ruby-logo,
@@ -227,7 +236,7 @@ $vollkorn: 'Vollkorn', serif;*/
   margin: 0 auto;
   transition: background 0.35s linear;
 }
-/* line 44, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 45, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer #experience-logos div.git-logo,
 #web-developer #curious-logos div.git-logo,
 #exploring #experience-logos div.git-logo,
@@ -240,7 +249,7 @@ $vollkorn: 'Vollkorn', serif;*/
   margin: 0 auto;
   transition: background 0.35s linear;
 }
-/* line 49, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 50, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer #experience-logos div.react-logo,
 #web-developer #curious-logos div.react-logo,
 #exploring #experience-logos div.react-logo,
@@ -253,7 +262,7 @@ $vollkorn: 'Vollkorn', serif;*/
   margin: 0 auto;
   transition: background 0.35s linear;
 }
-/* line 54, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 55, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer #experience-logos div.erlang-logo,
 #web-developer #curious-logos div.erlang-logo,
 #exploring #experience-logos div.erlang-logo,
@@ -266,7 +275,7 @@ $vollkorn: 'Vollkorn', serif;*/
   margin: 0 auto;
   transition: background 0.35s linear;
 }
-/* line 59, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 60, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer #experience-logos div.python-logo,
 #web-developer #curious-logos div.python-logo,
 #exploring #experience-logos div.python-logo,
@@ -279,7 +288,7 @@ $vollkorn: 'Vollkorn', serif;*/
   margin: 0 auto;
   transition: background 0.35s linear;
 }
-/* line 66, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 67, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer .experience-types,
 #exploring .experience-types,
 #listed-experience .experience-types,
@@ -287,7 +296,7 @@ $vollkorn: 'Vollkorn', serif;*/
   text-align: center;
   margin-bottom: 5em;
 }
-/* line 69, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 70, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer .experience-types h5,
 #exploring .experience-types h5,
 #listed-experience .experience-types h5,
@@ -297,7 +306,7 @@ $vollkorn: 'Vollkorn', serif;*/
   font-weight: 700;
   color: #74c7d7;
 }
-/* line 76, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 77, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer .experience-types ul li,
 #exploring .experience-types ul li,
 #listed-experience .experience-types ul li,
@@ -306,7 +315,7 @@ $vollkorn: 'Vollkorn', serif;*/
   font-size: 2.5em;
   font-weight: 500;
 }
-/* line 84, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 85, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer #motivations,
 #exploring #motivations,
 #listed-experience #motivations,
@@ -314,7 +323,7 @@ $vollkorn: 'Vollkorn', serif;*/
   margin-top: 0;
   margin-bottom: 75vh;
 }
-/* line 87, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 88, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #web-developer #motivations h4,
 #exploring #motivations h4,
 #listed-experience #motivations h4,
@@ -322,20 +331,20 @@ $vollkorn: 'Vollkorn', serif;*/
   padding-top: 0;
 }
 
-/* line 93, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 94, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #who-am-i {
   margin-top: 45vh !important;
 }
 
-/* line 98, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 99, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #learning #motivations h4 {
   font-size: 7vw;
 }
-/* line 102, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 103, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #learning #values.visible {
   animation: fadeInAndFlipUp 0.75s;
 }
-/* line 106, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 107, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #learning #lightbulb-smoke {
   margin: 30vh 40vw 5vh;
   max-width: 20vw;
@@ -343,7 +352,7 @@ $vollkorn: 'Vollkorn', serif;*/
   width: auto;
 }
 
-/* line 114, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 115, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 img#brush {
   margin: 0 auto;
   max-width: 50vw;
@@ -351,7 +360,7 @@ img#brush {
   width: auto;
 }
 
-/* line 121, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 122, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 img#point-down,
 img#point-up {
   margin: 10vh auto;
@@ -360,40 +369,40 @@ img#point-up {
   width: auto;
 }
 
-/* line 129, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 130, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 img#point-up {
   transform: rotate(180deg);
 }
 
-/* line 133, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 134, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 img#point-down {
   margin-top: 20vh;
   margin-bottom: 50vh;
 }
 
-/* line 138, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 139, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #listed-experience .container {
   margin-top: 20vh;
 }
 
-/* line 142, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 143, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #experience {
   padding: 5vh 0;
 }
-/* line 144, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+/* line 145, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
 #experience h4 {
   padding-top: 3vh !important;
   color: #1f3441;
 }
 
 @media (max-width: 1200px) {
-  /* line 152, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+  /* line 153, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
   #values.display-mobile {
     animation: fadeInAndFlipUp 0.75s;
   }
 }
 @media (orientation: portrait) {
-  /* line 159, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
+  /* line 160, /Users/blakeburnette/repos/visual/app/assets/stylesheets/about_me.scss */
   #experience h4 {
     font-size: 13vw !important;
   }
