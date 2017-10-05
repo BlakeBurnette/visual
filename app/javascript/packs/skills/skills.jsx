@@ -17,7 +17,7 @@ class Skills extends React.Component {
     this.props.skills.forEach((skill) => {
       if (skill.category !== null) {
         skillSections.push(
-          <div className="col offset-s3 s6 experience-types">
+          <div className="col offset-l3 l6 offset-m2 m8 s12 experience-types">
             <SkillsCategory
               categoryName={skill.category.name}
               key={skill.category.id} />
@@ -37,6 +37,7 @@ class Skills extends React.Component {
   }
 }
 
+// this needs to get moved to an API call
 const SKILLS = [
   {
     category: {
