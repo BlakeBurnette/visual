@@ -1,17 +1,11 @@
 (Home)
 Params -- stretch
 
-Clean up mobile styling
-
-Add portfolio, images and resum type things to work
-
-
-
-
+Add portfolio, images and resume type things to work
 
 ================stretch============================
 
-errors
+custom errors
 
 testing
 
