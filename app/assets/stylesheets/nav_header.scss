@@ -41,7 +41,6 @@ nav#toggle-nav {
         margin: 0px 15px;
         padding: 0 5px;
         font-size: 1.4em;
-        @media (orientation: portrait), (max-width: 1080px) {font-size: 2.4em;}
         font-weight: bold;
         line-height: 35px;
         &:hover{
