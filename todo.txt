@@ -1,21 +1,11 @@
-(About me)
-style content
+(Home)
+Params -- stretch
 
-(Contact)
-Styling
-Confirmation page
+Clean up mobile styling
 
-(Footer)
-Update it so that is centered correctly in three divs with map of site
+Add portfolio, images and resum type things to work
 
-Fun
-Work
-
-Coming soon
-
-
-
-
+Hover indicator for language proficiency
 
 
 
@@ -23,12 +13,9 @@ Coming soon
 
 ================stretch============================
 
-(Home)
-Downward arrow for scroll -- stretch
-Params -- stretch
-
 errors
 
 testing
 
-clean up email
+Add work examples
+Add fun projects
