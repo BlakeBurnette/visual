@@ -9,7 +9,9 @@
                   controlsList: 'nodownload',
                   autobuffer: true,
                   id: 'home-screen-background') %>
-  <div id="keywords">welcome</div>
+  <div id="keywords">
+    <div id="greeting">welcome <%= welcome_name(@name) %></div>
+  </div>
   <div id="keywords-animation"></div>
 </section>
 

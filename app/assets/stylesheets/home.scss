@@ -52,6 +52,14 @@
     animation: fade-in 6s;
   }
 
+  #greeting {
+    max-width: 25vw;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: 8vh;
+  }
+
   @keyframes fade-in {
     0% {
       opacity: 0;
@@ -139,6 +147,14 @@
     animation: fade-in 6s;
   }
 
+  #greeting {
+    max-width: 40vw;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: 3vh;
+  }
+
   @keyframes fade-in {
     0% {
       opacity: 0;
@@ -180,8 +196,13 @@
     video {display: none;}
   }
   #keywords {
-    top: 41%;
+    top: 36%;
   }
+}
+
+#keywords {
+  z-index: 99;
+  opacity: 0.7;
 }
 
 video::-internal-media-controls-download-button {

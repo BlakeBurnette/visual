@@ -1,6 +1,4 @@
 (Home)
-Params -- stretch
-
 Add portfolio, images and resume type things to work
 
 ================stretch============================
