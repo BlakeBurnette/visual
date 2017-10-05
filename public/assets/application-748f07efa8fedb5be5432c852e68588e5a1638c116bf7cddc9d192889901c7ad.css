@@ -4635,6 +4635,9 @@ $vollkorn: 'Vollkorn', serif;*/
     max-width: 25vw;
     text-align: center;
     margin: 0 auto;
+  }
+  /* line 59, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  #greeting.personal {
     position: relative;
     bottom: 8vh;
   }
@@ -4672,25 +4675,25 @@ $vollkorn: 'Vollkorn', serif;*/
   }
 }
 @media (orientation: portrait) {
-  /* line 98, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  /* line 100, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
   body {
     font-family: "Open Sans", sans-serif;
     background-color: #fff;
     color: #131626;
   }
 
-  /* line 104, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  /* line 106, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
   #main-screen {
     height: 100vh;
     overflow: hidden;
     background-color: #fff;
   }
-  /* line 108, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  /* line 110, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
   #main-screen video {
     display: none;
   }
 
-  /* line 113, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  /* line 115, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
   #home-screen-background {
     -webkit-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
@@ -4707,7 +4710,7 @@ $vollkorn: 'Vollkorn', serif;*/
   }
 
   /* box animation */
-  /* line 129, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  /* line 131, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
   #keywords-animation {
     position: absolute;
     background-color: rgba(237, 0, 91, 0.2);
@@ -4718,7 +4721,7 @@ $vollkorn: 'Vollkorn', serif;*/
     left: 0vw;
   }
 
-  /* line 139, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  /* line 141, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
   #keywords {
     position: absolute;
     font-size: 10em;
@@ -4730,11 +4733,14 @@ $vollkorn: 'Vollkorn', serif;*/
     animation: fade-in 6s;
   }
 
-  /* line 150, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  /* line 152, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
   #greeting {
     max-width: 40vw;
     text-align: center;
     margin: 0 auto;
+  }
+  /* line 156, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  #greeting.personal {
     position: relative;
     bottom: 3vh;
   }
@@ -4772,38 +4778,38 @@ $vollkorn: 'Vollkorn', serif;*/
   }
 }
 @media (max-width: 1200px) {
-  /* line 193, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  /* line 197, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
   #main-screen {
     background: #131626 url(/assets/home_screen_mobile_fallback-03c0d864f1866add868d042caf8482c68729eea7288cabbf5abfbf6891220d7c.jpg) no-repeat center;
     background-size: cover;
   }
-  /* line 196, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  /* line 200, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
   #main-screen video {
     display: none;
   }
 
-  /* line 198, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+  /* line 202, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
   #keywords {
     top: 36%;
   }
 }
-/* line 203, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+/* line 207, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
 #keywords {
   z-index: 99;
   opacity: 0.7;
 }
 
-/* line 208, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+/* line 212, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
 video::-internal-media-controls-download-button {
   display: none;
 }
 
-/* line 212, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+/* line 216, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
 video::-webkit-media-controls-enclosure {
   overflow: hidden;
 }
 
-/* line 216, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
+/* line 220, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
 video::-webkit-media-controls-panel {
   width: calc(100% + 30px);
   /* Adjust as needed */
