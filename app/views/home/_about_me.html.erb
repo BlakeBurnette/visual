@@ -16,56 +16,8 @@
     <h4>&lt; experience /&gt;</h4>
   </div>
   <div class="container">
-    <div class="row">
-      <div class="col offset-l3 l6 offset-m2 m8 s12 experience-types">
-        <h5>Javascript</h5>
-        <ul>
-          <li>ES2017</li>
-          <li>React</li>
-          <li>Angularjs</li>
-          <li>jQuery</li>
-        </ul>
-      </div>
-      <div class="col offset-s3 s6 experience-types">
-        <h5>CSS</h5>
-        <ul>
-          <li>Sass/Less</li>
-          <li>Bootstrap</li>
-          <li>Materialize</li>
-          <li>Transitions/Keyframes</li>
-        </ul>
-      </div>
-      <div class="col offset-s3 s6 experience-types">
-        <h5>Server-side</h5>
-        <ul>
-          <li>Ruby</li>
-          <li>Rails</li>
-        </ul>
-      </div>
-      <div class="col offset-s3 s6 experience-types">
-        <h5>Testing</h5>
-        <ul>
-          <li>RSpec</li>
-          <li>Minitest</li>
-          <li>Capybara</li>
-          <li>Poltergeist</li>
-        </ul>
-      </div>
-      <div class="col offset-s3 s6 experience-types">
-        <h5>Continuous Integration</h5>
-        <ul>
-          <li>Travis CI</li>
-          <li>Semaphore</li>
-        </ul>
-      </div>
-      <div class="col offset-s3 s6 experience-types">
-        <h5>CMS</h5>
-        <ul>
-          <li>Wordpress</li>
-          <li>Drupal</li>
-          <li>Four51</li>
-        </ul>
-      </div>
+    <div id="skillsList" class="row">
+      <%= javascript_pack_tag 'skills/skills' %>
     </div>
   </div>
 </section>
