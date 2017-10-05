@@ -1,9 +1,8 @@
-(Home)
-Add portfolio, images and resume type things to work
+Travis CI integration
 
 ================stretch============================
 
-custom errors
+fun error pages
 
 testing
 
