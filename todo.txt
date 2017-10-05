@@ -5,8 +5,6 @@ Clean up mobile styling
 
 Add portfolio, images and resum type things to work
 
-Hover indicator for language proficiency
-
 
 
 
