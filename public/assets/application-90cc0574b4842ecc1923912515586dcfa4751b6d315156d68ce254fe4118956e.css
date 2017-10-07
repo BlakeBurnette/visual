@@ -4735,7 +4735,7 @@ $vollkorn: 'Vollkorn', serif;*/
 
   /* line 152, /Users/blakeburnette/repos/visual/app/assets/stylesheets/home.scss */
   #greeting {
-    max-width: 40vw;
+    max-width: 80vw;
     text-align: center;
     margin: 0 auto;
   }
