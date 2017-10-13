@@ -38,6 +38,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'newrelic_rpm'
 gem 'pry'
+gem 'puma_worker_killer'
 gem 'sendgrid-ruby'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
