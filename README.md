@@ -22,3 +22,18 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Running Locally:
+
+set up node first:
+./bin/webpack-dev-server
+
+then run rails normally
+rails s
+
+Deploying to Heroku
+Precompile assets and push to master:
+```rm -rf ./public/assets && mkdir public/assets && rake assets:precompile && git add -A && git ci -am "heroku push"```
+
+Then push to heroku master:
+```git push heroku master```
