@@ -4825,7 +4825,7 @@ nav#toggle-nav {
   z-index: 1;
   box-shadow: none;
   width: auto;
-  overflow: visible;
+  overflow: hidden;
 }
 /* line 13, /Users/blakeburnette/repos/visual/app/assets/stylesheets/nav_header.scss */
 nav#toggle-nav #nav-plus-toggle {
@@ -15223,7 +15223,7 @@ nav#toggle-nav {
   z-index: 1;
   box-shadow: none;
   width: auto;
-  overflow: visible;
+  overflow: hidden;
 }
 /* line 13, /Users/blakeburnette/repos/visual/app/assets/stylesheets/nav_header.scss */
 nav#toggle-nav #nav-plus-toggle {
